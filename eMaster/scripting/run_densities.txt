@@ -1,0 +1,13 @@
+Run Characteristics
+Enrichment Weight Percent = 0.05 
+Enrichment Weight Percent Split (Outer/Inner) = 1 
+Smeared Density Percent = 75 
+U-10Zr alloy density = 16.26339 g/cm^3 
+MCC3ID     Density [#/barn-cm]
+U235_7     1.87506E-03
+U238_7     3.51762E-02
+ZR90_7     5.52367E-03
+ZR91_7     1.20458E-03
+ZR92_7     1.84122E-03
+ZR94_7     1.86592E-03
+ZR96_7     3.00608E-04

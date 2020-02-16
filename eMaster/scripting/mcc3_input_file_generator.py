@@ -19,6 +19,8 @@ clad_list = ['FE54_7', 'FE56_7', 'FE57_7', 'FE58_7', 'CR50_7', 'CR52_7',
              'NI62_7', 'NI64_7', 'MO92_7', 'MO94_7', 'MO95_7', 'MO96_7',
              'MO97_7', 'MO98_7', 'MO1007']
 
+coolant_dens;
+
 # Read in densities from run_densities
 def read_dens_to_dict(densities):
   line = densities.readline()
@@ -28,7 +30,10 @@ def read_dens_to_dict(densities):
   dens_dict = {}
   while line:
     split_line = line.split()
-    dens_dict[split_line[0]] = split_line[1]
+    if split_line[0] == 'NA23_7':
+      coolant_dens = split_line[1]
+    else:
+      dens_dict[split_line[0]] = split_line[1]
     line = densities.readline()
   return dens_dict
 
@@ -70,7 +75,7 @@ except SyntaxError:
 if fp_file_name is not None and (not path.exists(str(fp_file_name))):
   fp_file_name = str(input('Input not found! Enter FP_densities file: \n'))
 else:
-  print('No fission product densities file passed, assumed infinite dilution.')
+  print('No fission product densities file passed, I won\'t mess with them.\n')
 
 # Open files
 original_handle=open(original_inp,'r')
@@ -113,12 +118,14 @@ while line:
         print_file.write(indent+ split_line[0]+'  '+split_line[1]+'  '+\
                          dens_dict[split_line[0]]+'  '+split_line[3]+'\n')
       elif ( (not fission_products_zone) and check_is_coolant(split_line[0]) ): 
-        # Need to change ###########################################################
         print_file.write(indent+split_line[0]+'  '+split_line[1]+'  '+ \
-                         split_line[2]+'  '+split_line[3]+'\n')      
+                         coolant_dens+'  '+split_line[3]+'\n')  
+        #print_file.write(indent+split_line[0]+'  '+split_line[1]+'  '+ \
+        #                split_line[2]+'  '+split_line[3]+'\n')      
       else: # Must be fission product
-        print_file.write(indent+split_line[0]+'  '+split_line[1]+ \
-                         '  1.00000E-20  '+split_line[3]+'\n')
+        print_file.write(line)
+        #print_file.write(indent+split_line[0]+'  '+split_line[1]+ \
+        #                 '  1.00000E-20  '+split_line[3]+'\n')
     elif '! fission products' in line:
       fission_products_zone = True
       print_file.write(line)
