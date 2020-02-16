@@ -218,39 +218,103 @@ DATASET=A.NIP3
    ******************************************************************************
 
    * U-20Pu-10Zr, density = 15.73 g/cc, ANL-IFR-29
-13          FUELI U234I      1.0    U235I      1.0    U236I      1.0
-13          FUELI U238I      1.0    Pu36I      0.0    Pu38I      1.0
-13          FUELI Pu39I      1.0    Pu40I      1.0    Pu41I      1.0
-13          FUELI Pu42I      1.0    Np37I      1.0    A241I      1.0
-13          FUELI A42mI      0.0    A243I      0.0    Cm42I      0.0
-13          FUELI Cm43I      0.0    Cm44I      1.0    Cm45I      0.0
-13          FUELI Cm46I      0.0    DUMP1      1.0    DUMP2      1.0
-13          FUELI FU35I      1.0    FU38I      1.0    FN37I      1.0
-13          FUELI FP38I      1.0    FP39I      1.0    FP40I      1.0
-13          FUELI FP41I      1.0    FP42I      1.0    FA41I      1.0
-13          FUELI FA43I      0.0    FC44I      1.0    EU35I      1.0
-13          FUELI EU38I      1.0    EN37I      1.0    EP38I      1.0
-13          FUELI EP39I      1.0    EP40I      1.0    EP41I      1.0
-13          FUELI EP42I      1.0    EA41I      1.0    EA43I      0.0
-13          FUELI EC44I      1.0    Zr90I  5.34249E-03Zr91I  1.16507E-03
-13          FUELI Zr92I  1.78083E-03Zr94I  1.80471E-03Zr96I  2.90747E-04                      
+13          FUELI U234I      1.0    
+13          FUELI U235I      1.0    
+13          FUELI U236I      1.0
+13          FUELI U238I      1.0    
+13          FUELI Pu36I      0.0    
+13          FUELI Pu38I      1.0
+13          FUELI Pu39I      1.0    
+13          FUELI Pu40I      1.0    
+13          FUELI Pu41I      1.0
+13          FUELI Pu42I      1.0    
+13          FUELI Np37I      1.0    
+13          FUELI A241I      1.0
+13          FUELI A42mI      0.0    
+13          FUELI A243I      0.0    
+13          FUELI Cm42I      0.0
+13          FUELI Cm43I      0.0    
+13          FUELI Cm44I      1.0    
+13          FUELI Cm45I      0.0
+13          FUELI Cm46I      0.0    
+13          FUELI DUMP1      1.0    
+13          FUELI DUMP2      1.0
+13          FUELI FU35I      1.0    
+13          FUELI FU38I      1.0    
+13          FUELI FN37I      1.0
+13          FUELI FP38I      1.0    
+13          FUELI FP39I      1.0    
+13          FUELI FP40I      1.0
+13          FUELI FP41I      1.0    
+13          FUELI FP42I      1.0    
+13          FUELI FA41I      1.0
+13          FUELI FA43I      0.0    
+13          FUELI FC44I      1.0    
+13          FUELI EU35I      1.0
+13          FUELI EU38I      1.0    
+13          FUELI EN37I      1.0    
+13          FUELI EP38I      1.0
+13          FUELI EP39I      1.0    
+13          FUELI EP40I      1.0    
+13          FUELI EP41I      1.0
+13          FUELI EP42I      1.0    
+13          FUELI EA41I      1.0    
+13          FUELI EA43I      0.0
+13          FUELI EC44I      1.0    
+13          FUELI Zr90I  5.34249E-03
+13          FUELI Zr91I  1.16507E-03
+13          FUELI Zr92I  1.78083E-03
+13          FUELI Zr94I  1.80471E-03
+13          FUELI Zr96I  2.90747E-04                      
 
-13          FUELO U234O      1.0    U235O      1.0    U236O      1.0
-13          FUELO U238O      1.0    Pu36O      0.0    Pu38O      1.0
-13          FUELO Pu39O      1.0    Pu40O      1.0    Pu41O      1.0
-13          FUELO Pu42O      1.0    Np37O      1.0    A241O      1.0
-13          FUELO A42mO      0.0    A243O      0.0    Cm42O      0.0
-13          FUELO Cm43O      0.0    Cm44O      1.0    Cm45O      0.0
-13          FUELO Cm46O      0.0    DUMP1      1.0    DUMP2      1.0
-13          FUELO FU35O      1.0    FU38O      1.0    FN37O      1.0
-13          FUELO FP38O      1.0    FP39O      1.0    FP40O      1.0
-13          FUELO FP41O      1.0    FP42O      1.0    FA41O      1.0
-13          FUELO FA43O      0.0    FC44O      1.0    EU35O      1.0
-13          FUELO EU38O      1.0    EN37O      1.0    EP38O      1.0
-13          FUELO EP39O      1.0    EP40O      1.0    EP41O      1.0
-13          FUELO EP42O      1.0    EA41O      1.0    EA43O      0.0
-13          FUELO EC44O      1.0    Zr90O  5.34249E-03Zr91O  1.16507E-03
-13          FUELO Zr92O  1.78083E-03Zr94O  1.80471E-03Zr96O  2.90747E-04
+13          FUELO U234O      1.0    
+13          FUELO U235O      1.0    
+13          FUELO U236O      1.0
+13          FUELO U238O      1.0    
+13          FUELO Pu36O      0.0    
+13          FUELO Pu38O      1.0
+13          FUELO Pu39O      1.0    
+13          FUELO Pu40O      1.0    
+13          FUELO Pu41O      1.0
+13          FUELO Pu42O      1.0    
+13          FUELO Np37O      1.0    
+13          FUELO A241O      1.0
+13          FUELO A42mO      0.0    
+13          FUELO A243O      0.0    
+13          FUELO Cm42O      0.0
+13          FUELO Cm43O      0.0    
+13          FUELO Cm44O      1.0    
+13          FUELO Cm45O      0.0
+13          FUELO Cm46O      0.0    
+13          FUELO DUMP1      1.0    
+13          FUELO DUMP2      1.0
+13          FUELO FU35O      1.0    
+13          FUELO FU38O      1.0    
+13          FUELO FN37O      1.0
+13          FUELO FP38O      1.0    
+13          FUELO FP39O      1.0    
+13          FUELO FP40O      1.0
+13          FUELO FP41O      1.0    
+13          FUELO FP42O      1.0    
+13          FUELO FA41O      1.0
+13          FUELO FA43O      0.0    
+13          FUELO FC44O      1.0    
+13          FUELO EU35O      1.0
+13          FUELO EU38O      1.0    
+13          FUELO EN37O      1.0    
+13          FUELO EP38O      1.0
+13          FUELO EP39O      1.0    
+13          FUELO EP40O      1.0    
+13          FUELO EP41O      1.0
+13          FUELO EP42O      1.0    
+13          FUELO EA41O      1.0    
+13          FUELO EA43O      0.0
+13          FUELO EC44O      1.0    
+13          FUELO Zr90O  5.34249E-03
+13          FUELO Zr91O  1.16507E-03
+13          FUELO Zr92O  1.78083E-03
+13          FUELO Zr94O  1.80471E-03
+13          FUELO Zr96O  2.90747E-04
 
   * Na coolant, density from Fink and Leibowitz (rho=0.850257 at 432.5 C)
 13          CLNTI Na23I  8.05594E-03
@@ -1594,27 +1658,55 @@ DATASET=A.BURN
    *** >>> Check point : different fuel density and fuel form
    ******************************************************************************
 
-13    ICLOAD      U-234  3.64276E-02U-235  3.62721E-02U-236  3.61182E-02
+13    ICLOAD      U-234  3.64276E-02
+13    ICLOAD      U-235  3.62721E-02
+13    ICLOAD      U-236  3.61182E-02
 13    ICLOAD      U-238  3.58140E-02
 13    ICLOAD      NP237  3.59654E-02
-13    ICLOAD      PU236  3.61181E-02PU238  3.58141E-02PU239  3.56639E-02
-13    ICLOAD      PU240  3.55151E-02PU241  3.53674E-02PU242  3.52210E-02
-13    ICLOAD      AM241  3.53673E-02AM242  3.52209E-02AM243  3.50757E-02
-13    ICLOAD      CM242  3.52209E-02CM243  3.50757E-02CM244  3.49318E-02
-13    ICLOAD      CM245  3.47888E-02CM246  3.46472E-02
-13    ICLOAD      LFP35  3.65475E-02LFP38  3.61589E-02LFP39  3.59882E-02
-13    ICLOAD      LFP40  3.58653E-02LFP41  3.56998E-02
+13    ICLOAD      PU236  3.61181E-02
+13    ICLOAD      PU238  3.58141E-02
+13    ICLOAD      PU239  3.56639E-02
+13    ICLOAD      PU240  3.55151E-02
+13    ICLOAD      PU241  3.53674E-02
+13    ICLOAD      PU242  3.52210E-02
+13    ICLOAD      AM241  3.53673E-02
+13    ICLOAD      AM242  3.52209E-02
+13    ICLOAD      AM243  3.50757E-02
+13    ICLOAD      CM242  3.52209E-02
+13    ICLOAD      CM243  3.50757E-02
+13    ICLOAD      CM244  3.49318E-02
+13    ICLOAD      CM245  3.47888E-02
+13    ICLOAD      CM246  3.46472E-02
+13    ICLOAD      LFP35  3.65475E-02
+13    ICLOAD      LFP38  3.61589E-02
+13    ICLOAD      LFP39  3.59882E-02
+13    ICLOAD      LFP40  3.58653E-02
+13    ICLOAD      LFP41  3.56998E-02
 
-13    OCLOAD      U-234  3.64276E-02U-235  3.62721E-02U-236  3.61182E-02
+13    OCLOAD      U-234  3.64276E-02
+13    OCLOAD      U-235  3.62721E-02
+13    OCLOAD      U-236  3.61182E-02
 13    OCLOAD      U-238  3.58140E-02
 13    OCLOAD      NP237  3.59654E-02
-13    OCLOAD      PU236  3.61181E-02PU238  3.58141E-02PU239  3.56639E-02
-13    OCLOAD      PU240  3.55151E-02PU241  3.53674E-02PU242  3.52210E-02
-13    OCLOAD      AM241  3.53673E-02AM242  3.52209E-02AM243  3.50757E-02
-13    OCLOAD      CM242  3.52209E-02CM243  3.50757E-02CM244  3.49318E-02
-13    OCLOAD      CM245  3.47888E-02CM246  3.46472E-02
-13    OCLOAD      LFP35  3.65475E-02LFP38  3.61589E-02LFP39  3.59882E-02
-13    OCLOAD      LFP40  3.58653E-02LFP41  3.56998E-02
+13    OCLOAD      PU236  3.61181E-02
+13    OCLOAD      PU238  3.58141E-02
+13    OCLOAD      PU239  3.56639E-02
+13    OCLOAD      PU240  3.55151E-02
+13    OCLOAD      PU241  3.53674E-02
+13    OCLOAD      PU242  3.52210E-02
+13    OCLOAD      AM241  3.53673E-02
+13    OCLOAD      AM242  3.52209E-02
+13    OCLOAD      AM243  3.50757E-02
+13    OCLOAD      CM242  3.52209E-02
+13    OCLOAD      CM243  3.50757E-02
+13    OCLOAD      CM244  3.49318E-02
+13    OCLOAD      CM245  3.47888E-02
+13    OCLOAD      CM246  3.46472E-02
+13    OCLOAD      LFP35  3.65475E-02
+13    OCLOAD      LFP38  3.61589E-02
+13    OCLOAD      LFP39  3.59882E-02
+13    OCLOAD      LFP40  3.58653E-02
+13    OCLOAD      LFP41  3.56998E-02
 
    ******************************************************************************
    *** >>> Check point : different feed TRU
