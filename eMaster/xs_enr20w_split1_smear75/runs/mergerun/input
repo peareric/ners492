@@ -1,0 +1,8 @@
+$control
+   c_isotxs_conversion = bin2asc
+/
+$output
+   c_isotxs_file = ISOTXS.IC
+                   ISOTXS.OC
+                   ISOTXS.other
+/

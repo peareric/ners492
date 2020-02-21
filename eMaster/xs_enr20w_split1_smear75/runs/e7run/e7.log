@@ -1,0 +1,809 @@
+ mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc
+ mcc                               M C C - 3.1.2                             mcc
+ mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc
+ Job started at 14:54:09.51 02/21/2020 cool1934p02.engin.umich.edu
+ reading input ...
+ library / control / output / material / 
+ reading MCC libraries ...
+ file1 / file2 / file3 / file4 / file5 / file6 / file7 / file8 /
+ file9 / file10 /
+ loading all isotope data on the memory ...
+ preparing regionwise data for region ...           1
+ preparing regionwise data for region ...           2
+ preparing regionwise data for region ...           3
+ preparing regionwise data for region ...           4
+ preparing regionwise data for region ...           5
+ preparing regionwise data for region ...           6
+ preparing regionwise data for region ...           7
+ preparing regionwise data for region ...           8
+ preparing regionwise data for region ...           9
+
+ running for region ...   1
+
+ allocating UFG for region ...           1
+ preparing chi matrix ...
+ self-shielding unresolved resonances ...
+ self-shielding resolved resonances ...
+ T-interpolation performed using the following two ... U234_7         794
+ T-interpolation performed using the following two ... U235_7         794
+ T-interpolation performed using the following two ... U236_7         794
+ T-interpolation performed using the following two ... U238_7         794
+ T-interpolation performed using the following two ... NP2377         794
+ T-interpolation performed using the following two ... PU2367         794
+ T-interpolation performed using the following two ... PU2387         794
+ T-interpolation performed using the following two ... PU2397         794
+ T-interpolation performed using the following two ... PU2407         794
+ T-interpolation performed using the following two ... PU2417         794
+ T-interpolation performed using the following two ... PU2427         794
+ T-interpolation performed using the following two ... AM2417         794
+ T-interpolation performed using the following two ... AM42M7         794
+ T-interpolation performed using the following two ... AM2437         794
+ T-interpolation performed using the following two ... CM2427         794
+ T-interpolation performed using the following two ... CM2437         794
+ T-interpolation performed using the following two ... CM2447         794
+ T-interpolation performed using the following two ... CM2457         794
+ T-interpolation performed using the following two ... CM2467         794
+ T-interpolation performed using the following two ... ZR90_7         794
+ T-interpolation performed using the following two ... ZR91_7         794
+ T-interpolation performed using the following two ... ZR92_7         794
+ T-interpolation performed using the following two ... ZR94_7         794
+ T-interpolation performed using the following two ... ZR96_7         794
+ T-interpolation performed using the following two ... FE54_7         731
+ T-interpolation performed using the following two ... FE56_7         731
+ T-interpolation performed using the following two ... FE57_7         731
+ T-interpolation performed using the following two ... FE58_7         731
+ T-interpolation performed using the following two ... CR50_7         731
+ T-interpolation performed using the following two ... CR52_7         731
+ T-interpolation performed using the following two ... CR53_7         731
+ T-interpolation performed using the following two ... CR54_7         731
+ T-interpolation performed using the following two ... MN55_7         731
+ T-interpolation performed using the following two ... NI58_7         731
+ T-interpolation performed using the following two ... NI60_7         731
+ T-interpolation performed using the following two ... NI61_7         731
+ T-interpolation performed using the following two ... NI62_7         731
+ T-interpolation performed using the following two ... NI64_7         731
+ T-interpolation performed using the following two ... MO92_7         731
+ T-interpolation performed using the following two ... MO94_7         731
+ T-interpolation performed using the following two ... MO95_7         731
+ T-interpolation performed using the following two ... MO96_7         731
+ T-interpolation performed using the following two ... MO97_7         731
+ T-interpolation performed using the following two ... MO98_7         731
+ T-interpolation performed using the following two ... MO1007         731
+ T-interpolation performed using the following two ... NA23_7         706
+ T-interpolation performed using the following two ... AG1077         794
+ T-interpolation performed using the following two ... AG1097         794
+ T-interpolation performed using the following two ... AG10M7         794
+ T-interpolation performed using the following two ... AG1117         794
+ T-interpolation performed using the following two ... AS75_7         794
+ T-interpolation performed using the following two ... BA1327         794
+ T-interpolation performed using the following two ... BA1337         794
+ T-interpolation performed using the following two ... BA1347         794
+ T-interpolation performed using the following two ... BA1357         794
+ T-interpolation performed using the following two ... BA1367         794
+ T-interpolation performed using the following two ... BA1377         794
+ T-interpolation performed using the following two ... BA1387         794
+ T-interpolation performed using the following two ... BA1407         794
+ T-interpolation performed using the following two ... BR79_7         794
+ T-interpolation performed using the following two ... BR81_7         794
+ T-interpolation performed using the following two ... CD1067         794
+ T-interpolation performed using the following two ... CD1087         794
+ T-interpolation performed using the following two ... CD1107         794
+ T-interpolation performed using the following two ... CD1117         794
+ T-interpolation performed using the following two ... CD1127         794
+ T-interpolation performed using the following two ... CD1137         794
+ T-interpolation performed using the following two ... CD1147         794
+ T-interpolation performed using the following two ... CD1167         794
+ T-interpolation performed using the following two ... CD15M7         794
+ T-interpolation performed using the following two ... CS1337         794
+ T-interpolation performed using the following two ... CS1347         794
+ T-interpolation performed using the following two ... CS1357         794
+ T-interpolation performed using the following two ... CS1367         794
+ T-interpolation performed using the following two ... CS1377         794
+ T-interpolation performed using the following two ... GA69_7         794
+ T-interpolation performed using the following two ... GA71_7         794
+ T-interpolation performed using the following two ... GE70_7         794
+ T-interpolation performed using the following two ... GE72_7         794
+ T-interpolation performed using the following two ... GE73_7         794
+ T-interpolation performed using the following two ... GE74_7         794
+ T-interpolation performed using the following two ... GE76_7         794
+ T-interpolation performed using the following two ... I127_7         794
+ T-interpolation performed using the following two ... I129_7         794
+ T-interpolation performed using the following two ... I131_7         794
+ T-interpolation performed using the following two ... IN1137         794
+ T-interpolation performed using the following two ... IN1157         794
+ T-interpolation performed using the following two ... MO1007         794
+ T-interpolation performed using the following two ... MO94_7         794
+ T-interpolation performed using the following two ... MO95_7         794
+ T-interpolation performed using the following two ... MO96_7         794
+ T-interpolation performed using the following two ... MO97_7         794
+ T-interpolation performed using the following two ... MO98_7         794
+ T-interpolation performed using the following two ... NB93_7         794
+ T-interpolation performed using the following two ... NB94_7         794
+ T-interpolation performed using the following two ... NB95_7         794
+ T-interpolation performed using the following two ... PD1027         794
+ T-interpolation performed using the following two ... PD1047         794
+ T-interpolation performed using the following two ... PD1057         794
+ T-interpolation performed using the following two ... PD1067         794
+ T-interpolation performed using the following two ... PD1077         794
+ T-interpolation performed using the following two ... PD1087         794
+ T-interpolation performed using the following two ... PD1107         794
+ T-interpolation performed using the following two ... RB85_7         794
+ T-interpolation performed using the following two ... RB86_7         794
+ T-interpolation performed using the following two ... RB87_7         794
+ T-interpolation performed using the following two ... RH1037         794
+ T-interpolation performed using the following two ... RU1007         794
+ T-interpolation performed using the following two ... RU1017         794
+ T-interpolation performed using the following two ... RU1027         794
+ T-interpolation performed using the following two ... RU1037         794
+ T-interpolation performed using the following two ... RU1047         794
+ T-interpolation performed using the following two ... RU1067         794
+ T-interpolation performed using the following two ... RU98_7         794
+ T-interpolation performed using the following two ... RU99_7         794
+ T-interpolation performed using the following two ... SB1217         794
+ T-interpolation performed using the following two ... SB1237         794
+ T-interpolation performed using the following two ... SB1247         794
+ T-interpolation performed using the following two ... SB1257         794
+ T-interpolation performed using the following two ... SB1267         794
+ T-interpolation performed using the following two ... SE74_7         794
+ T-interpolation performed using the following two ... SE76_7         794
+ T-interpolation performed using the following two ... SE77_7         794
+ T-interpolation performed using the following two ... SE78_7         794
+ T-interpolation performed using the following two ... SE79_7         794
+ T-interpolation performed using the following two ... SE80_7         794
+ T-interpolation performed using the following two ... SE82_7         794
+ T-interpolation performed using the following two ... SN1127         794
+ T-interpolation performed using the following two ... SN1147         794
+ T-interpolation performed using the following two ... SN1157         794
+ T-interpolation performed using the following two ... SN1167         794
+ T-interpolation performed using the following two ... SN1177         794
+ T-interpolation performed using the following two ... SN1187         794
+ T-interpolation performed using the following two ... SN1197         794
+ T-interpolation performed using the following two ... SN1207         794
+ T-interpolation performed using the following two ... SN1227         794
+ T-interpolation performed using the following two ... SN1237         794
+ T-interpolation performed using the following two ... SN1247         794
+ T-interpolation performed using the following two ... SN1257         794
+ T-interpolation performed using the following two ... SN1267         794
+ T-interpolation performed using the following two ... SR84_7         794
+ T-interpolation performed using the following two ... SR86_7         794
+ T-interpolation performed using the following two ... SR87_7         794
+ T-interpolation performed using the following two ... SR88_7         794
+ T-interpolation performed using the following two ... SR89_7         794
+ T-interpolation performed using the following two ... SR90_7         794
+ T-interpolation performed using the following two ... TC99_7         794
+ T-interpolation performed using the following two ... TE1207         794
+ T-interpolation performed using the following two ... TE1227         794
+ T-interpolation performed using the following two ... TE1237         794
+ T-interpolation performed using the following two ... TE1247         794
+ T-interpolation performed using the following two ... TE1257         794
+ T-interpolation performed using the following two ... TE1267         794
+ T-interpolation performed using the following two ... TE1287         794
+ T-interpolation performed using the following two ... TE1307         794
+ T-interpolation performed using the following two ... TE27M7         794
+ T-interpolation performed using the following two ... TE29M7         794
+ T-interpolation performed using the following two ... ZR90_7         794
+ T-interpolation performed using the following two ... ZR91_7         794
+ T-interpolation performed using the following two ... ZR92_7         794
+ T-interpolation performed using the following two ... ZR93_7         794
+ T-interpolation performed using the following two ... ZR94_7         794
+ T-interpolation performed using the following two ... ZR95_7         794
+ T-interpolation performed using the following two ... ZR96_7         794
+ T-interpolation performed using the following two ... XE1307         794
+ T-interpolation performed using the following two ... XE1317         794
+ T-interpolation performed using the following two ... XE1327         794
+ T-interpolation performed using the following two ... XE1337         794
+ T-interpolation performed using the following two ... XE1347         794
+ T-interpolation performed using the following two ... XE1367         794
+ T-interpolation performed using the following two ... KR80_7         794
+ T-interpolation performed using the following two ... KR82_7         794
+ T-interpolation performed using the following two ... KR83_7         794
+ T-interpolation performed using the following two ... KR84_7         794
+ T-interpolation performed using the following two ... KR85_7         794
+ T-interpolation performed using the following two ... KR86_7         794
+ T-interpolation performed using the following two ... XE1287         794
+ T-interpolation performed using the following two ... XE1297         794
+ T-interpolation performed using the following two ... KR78_7         794
+ T-interpolation performed using the following two ... CE1387         794
+ T-interpolation performed using the following two ... CE1397         794
+ T-interpolation performed using the following two ... CE1407         794
+ T-interpolation performed using the following two ... CE1417         794
+ T-interpolation performed using the following two ... CE1427         794
+ T-interpolation performed using the following two ... CE1447         794
+ T-interpolation performed using the following two ... DY1567         794
+ T-interpolation performed using the following two ... DY1587         794
+ T-interpolation performed using the following two ... DY1607         794
+ T-interpolation performed using the following two ... DY1617         794
+ T-interpolation performed using the following two ... DY1627         794
+ T-interpolation performed using the following two ... DY1637         794
+ T-interpolation performed using the following two ... DY1647         794
+ T-interpolation performed using the following two ... ER1627         794
+ T-interpolation performed using the following two ... ER1647         794
+ T-interpolation performed using the following two ... ER1667         794
+ T-interpolation performed using the following two ... ER1677         794
+ T-interpolation performed using the following two ... ER1687         794
+ T-interpolation performed using the following two ... ER1707         794
+ T-interpolation performed using the following two ... EU1517         794
+ T-interpolation performed using the following two ... EU1527         794
+ T-interpolation performed using the following two ... EU1537         794
+ T-interpolation performed using the following two ... EU1547         794
+ T-interpolation performed using the following two ... EU1557         794
+ T-interpolation performed using the following two ... EU1567         794
+ T-interpolation performed using the following two ... GD1527         794
+ T-interpolation performed using the following two ... GD1537         794
+ T-interpolation performed using the following two ... GD1547         794
+ T-interpolation performed using the following two ... GD1557         794
+ T-interpolation performed using the following two ... GD1567         794
+ T-interpolation performed using the following two ... GD1577         794
+ T-interpolation performed using the following two ... GD1587         794
+ T-interpolation performed using the following two ... GD1607         794
+ T-interpolation performed using the following two ... HO1657         794
+ T-interpolation performed using the following two ... HO66M7         794
+ T-interpolation performed using the following two ... LA1387         794
+ T-interpolation performed using the following two ... LA1397         794
+ T-interpolation performed using the following two ... ND1427         794
+ T-interpolation performed using the following two ... ND1437         794
+ T-interpolation performed using the following two ... ND1447         794
+ T-interpolation performed using the following two ... ND1457         794
+ T-interpolation performed using the following two ... ND1467         794
+ T-interpolation performed using the following two ... ND1477         794
+ T-interpolation performed using the following two ... ND1487         794
+ T-interpolation performed using the following two ... ND1507         794
+ T-interpolation performed using the following two ... PM1477         794
+ T-interpolation performed using the following two ... PM1487         794
+ T-interpolation performed using the following two ... PM48M7         794
+ T-interpolation performed using the following two ... PR1417         794
+ T-interpolation performed using the following two ... PR1437         794
+ T-interpolation performed using the following two ... SM1477         794
+ T-interpolation performed using the following two ... SM1487         794
+ T-interpolation performed using the following two ... SM1497         794
+ T-interpolation performed using the following two ... SM1507         794
+ T-interpolation performed using the following two ... SM1517         794
+ T-interpolation performed using the following two ... SM1527         794
+ T-interpolation performed using the following two ... SM1547         794
+ T-interpolation performed using the following two ... TB1597         794
+ T-interpolation performed using the following two ... TB1607         794
+ T-interpolation performed using the following two ... Y89__7         794
+ processing elastic scattering matrix ...
+ processing non-elastic scattering matrix ...
+ preparing nu and chi ...
+ generating UFG macro cross sections ...
+ solving the 0D UFG transport equation ...
+ keff=    5  1.012480   0.116445E-01
+ keff=    7  1.000005   0.393391E-05 *converged*
+ updating isotopic and regionwise chi ...
+ condensing 0D UFG to BG cross sections  ...
+ generating BG macro cross sections ...
+ creating ISOTXS with UFG macro cross sections ...
+ recalculated k-eff(UFG based):   17  1.445399
+ recalculated k-eff( BG based):    4  1.448460
+
+ running for region ...   2
+
+ allocating UFG for region ...           2
+ preparing chi matrix ...
+ self-shielding unresolved resonances ...
+ self-shielding resolved resonances ...
+ T-interpolation performed using the following two ... U234_7         794
+ T-interpolation performed using the following two ... U235_7         794
+ T-interpolation performed using the following two ... U236_7         794
+ T-interpolation performed using the following two ... U238_7         794
+ T-interpolation performed using the following two ... NP2377         794
+ T-interpolation performed using the following two ... PU2367         794
+ T-interpolation performed using the following two ... PU2387         794
+ T-interpolation performed using the following two ... PU2397         794
+ T-interpolation performed using the following two ... PU2407         794
+ T-interpolation performed using the following two ... PU2417         794
+ T-interpolation performed using the following two ... PU2427         794
+ T-interpolation performed using the following two ... AM2417         794
+ T-interpolation performed using the following two ... AM42M7         794
+ T-interpolation performed using the following two ... AM2437         794
+ T-interpolation performed using the following two ... CM2427         794
+ T-interpolation performed using the following two ... CM2437         794
+ T-interpolation performed using the following two ... CM2447         794
+ T-interpolation performed using the following two ... CM2457         794
+ T-interpolation performed using the following two ... CM2467         794
+ T-interpolation performed using the following two ... ZR90_7         794
+ T-interpolation performed using the following two ... ZR91_7         794
+ T-interpolation performed using the following two ... ZR92_7         794
+ T-interpolation performed using the following two ... ZR94_7         794
+ T-interpolation performed using the following two ... ZR96_7         794
+ T-interpolation performed using the following two ... FE54_7         731
+ T-interpolation performed using the following two ... FE56_7         731
+ T-interpolation performed using the following two ... FE57_7         731
+ T-interpolation performed using the following two ... FE58_7         731
+ T-interpolation performed using the following two ... CR50_7         731
+ T-interpolation performed using the following two ... CR52_7         731
+ T-interpolation performed using the following two ... CR53_7         731
+ T-interpolation performed using the following two ... CR54_7         731
+ T-interpolation performed using the following two ... MN55_7         731
+ T-interpolation performed using the following two ... NI58_7         731
+ T-interpolation performed using the following two ... NI60_7         731
+ T-interpolation performed using the following two ... NI61_7         731
+ T-interpolation performed using the following two ... NI62_7         731
+ T-interpolation performed using the following two ... NI64_7         731
+ T-interpolation performed using the following two ... MO92_7         731
+ T-interpolation performed using the following two ... MO94_7         731
+ T-interpolation performed using the following two ... MO95_7         731
+ T-interpolation performed using the following two ... MO96_7         731
+ T-interpolation performed using the following two ... MO97_7         731
+ T-interpolation performed using the following two ... MO98_7         731
+ T-interpolation performed using the following two ... MO1007         731
+ T-interpolation performed using the following two ... C____7         731
+ T-interpolation performed using the following two ... B10__7         731
+ T-interpolation performed using the following two ... B11__7         731
+ T-interpolation performed using the following two ... NA23_7         706
+ T-interpolation performed using the following two ... AG1077         794
+ T-interpolation performed using the following two ... AG1097         794
+ T-interpolation performed using the following two ... AG10M7         794
+ T-interpolation performed using the following two ... AG1117         794
+ T-interpolation performed using the following two ... AS75_7         794
+ T-interpolation performed using the following two ... BA1327         794
+ T-interpolation performed using the following two ... BA1337         794
+ T-interpolation performed using the following two ... BA1347         794
+ T-interpolation performed using the following two ... BA1357         794
+ T-interpolation performed using the following two ... BA1367         794
+ T-interpolation performed using the following two ... BA1377         794
+ T-interpolation performed using the following two ... BA1387         794
+ T-interpolation performed using the following two ... BA1407         794
+ T-interpolation performed using the following two ... BR79_7         794
+ T-interpolation performed using the following two ... BR81_7         794
+ T-interpolation performed using the following two ... CD1067         794
+ T-interpolation performed using the following two ... CD1087         794
+ T-interpolation performed using the following two ... CD1107         794
+ T-interpolation performed using the following two ... CD1117         794
+ T-interpolation performed using the following two ... CD1127         794
+ T-interpolation performed using the following two ... CD1137         794
+ T-interpolation performed using the following two ... CD1147         794
+ T-interpolation performed using the following two ... CD1167         794
+ T-interpolation performed using the following two ... CD15M7         794
+ T-interpolation performed using the following two ... CS1337         794
+ T-interpolation performed using the following two ... CS1347         794
+ T-interpolation performed using the following two ... CS1357         794
+ T-interpolation performed using the following two ... CS1367         794
+ T-interpolation performed using the following two ... CS1377         794
+ T-interpolation performed using the following two ... GA69_7         794
+ T-interpolation performed using the following two ... GA71_7         794
+ T-interpolation performed using the following two ... GE70_7         794
+ T-interpolation performed using the following two ... GE72_7         794
+ T-interpolation performed using the following two ... GE73_7         794
+ T-interpolation performed using the following two ... GE74_7         794
+ T-interpolation performed using the following two ... GE76_7         794
+ T-interpolation performed using the following two ... I127_7         794
+ T-interpolation performed using the following two ... I129_7         794
+ T-interpolation performed using the following two ... I131_7         794
+ T-interpolation performed using the following two ... IN1137         794
+ T-interpolation performed using the following two ... IN1157         794
+ T-interpolation performed using the following two ... MO1007         794
+ T-interpolation performed using the following two ... MO94_7         794
+ T-interpolation performed using the following two ... MO95_7         794
+ T-interpolation performed using the following two ... MO96_7         794
+ T-interpolation performed using the following two ... MO97_7         794
+ T-interpolation performed using the following two ... MO98_7         794
+ T-interpolation performed using the following two ... NB93_7         794
+ T-interpolation performed using the following two ... NB94_7         794
+ T-interpolation performed using the following two ... NB95_7         794
+ T-interpolation performed using the following two ... PD1027         794
+ T-interpolation performed using the following two ... PD1047         794
+ T-interpolation performed using the following two ... PD1057         794
+ T-interpolation performed using the following two ... PD1067         794
+ T-interpolation performed using the following two ... PD1077         794
+ T-interpolation performed using the following two ... PD1087         794
+ T-interpolation performed using the following two ... PD1107         794
+ T-interpolation performed using the following two ... RB85_7         794
+ T-interpolation performed using the following two ... RB86_7         794
+ T-interpolation performed using the following two ... RB87_7         794
+ T-interpolation performed using the following two ... RH1037         794
+ T-interpolation performed using the following two ... RU1007         794
+ T-interpolation performed using the following two ... RU1017         794
+ T-interpolation performed using the following two ... RU1027         794
+ T-interpolation performed using the following two ... RU1037         794
+ T-interpolation performed using the following two ... RU1047         794
+ T-interpolation performed using the following two ... RU1067         794
+ T-interpolation performed using the following two ... RU98_7         794
+ T-interpolation performed using the following two ... RU99_7         794
+ T-interpolation performed using the following two ... SB1217         794
+ T-interpolation performed using the following two ... SB1237         794
+ T-interpolation performed using the following two ... SB1247         794
+ T-interpolation performed using the following two ... SB1257         794
+ T-interpolation performed using the following two ... SB1267         794
+ T-interpolation performed using the following two ... SE74_7         794
+ T-interpolation performed using the following two ... SE76_7         794
+ T-interpolation performed using the following two ... SE77_7         794
+ T-interpolation performed using the following two ... SE78_7         794
+ T-interpolation performed using the following two ... SE79_7         794
+ T-interpolation performed using the following two ... SE80_7         794
+ T-interpolation performed using the following two ... SE82_7         794
+ T-interpolation performed using the following two ... SN1127         794
+ T-interpolation performed using the following two ... SN1147         794
+ T-interpolation performed using the following two ... SN1157         794
+ T-interpolation performed using the following two ... SN1167         794
+ T-interpolation performed using the following two ... SN1177         794
+ T-interpolation performed using the following two ... SN1187         794
+ T-interpolation performed using the following two ... SN1197         794
+ T-interpolation performed using the following two ... SN1207         794
+ T-interpolation performed using the following two ... SN1227         794
+ T-interpolation performed using the following two ... SN1237         794
+ T-interpolation performed using the following two ... SN1247         794
+ T-interpolation performed using the following two ... SN1257         794
+ T-interpolation performed using the following two ... SN1267         794
+ T-interpolation performed using the following two ... SR84_7         794
+ T-interpolation performed using the following two ... SR86_7         794
+ T-interpolation performed using the following two ... SR87_7         794
+ T-interpolation performed using the following two ... SR88_7         794
+ T-interpolation performed using the following two ... SR89_7         794
+ T-interpolation performed using the following two ... SR90_7         794
+ T-interpolation performed using the following two ... TC99_7         794
+ T-interpolation performed using the following two ... TE1207         794
+ T-interpolation performed using the following two ... TE1227         794
+ T-interpolation performed using the following two ... TE1237         794
+ T-interpolation performed using the following two ... TE1247         794
+ T-interpolation performed using the following two ... TE1257         794
+ T-interpolation performed using the following two ... TE1267         794
+ T-interpolation performed using the following two ... TE1287         794
+ T-interpolation performed using the following two ... TE1307         794
+ T-interpolation performed using the following two ... TE27M7         794
+ T-interpolation performed using the following two ... TE29M7         794
+ T-interpolation performed using the following two ... ZR90_7         794
+ T-interpolation performed using the following two ... ZR91_7         794
+ T-interpolation performed using the following two ... ZR92_7         794
+ T-interpolation performed using the following two ... ZR93_7         794
+ T-interpolation performed using the following two ... ZR94_7         794
+ T-interpolation performed using the following two ... ZR95_7         794
+ T-interpolation performed using the following two ... ZR96_7         794
+ T-interpolation performed using the following two ... XE1307         794
+ T-interpolation performed using the following two ... XE1317         794
+ T-interpolation performed using the following two ... XE1327         794
+ T-interpolation performed using the following two ... XE1337         794
+ T-interpolation performed using the following two ... XE1347         794
+ T-interpolation performed using the following two ... XE1367         794
+ T-interpolation performed using the following two ... KR80_7         794
+ T-interpolation performed using the following two ... KR82_7         794
+ T-interpolation performed using the following two ... KR83_7         794
+ T-interpolation performed using the following two ... KR84_7         794
+ T-interpolation performed using the following two ... KR85_7         794
+ T-interpolation performed using the following two ... KR86_7         794
+ T-interpolation performed using the following two ... XE1287         794
+ T-interpolation performed using the following two ... XE1297         794
+ T-interpolation performed using the following two ... KR78_7         794
+ T-interpolation performed using the following two ... CE1387         794
+ T-interpolation performed using the following two ... CE1397         794
+ T-interpolation performed using the following two ... CE1407         794
+ T-interpolation performed using the following two ... CE1417         794
+ T-interpolation performed using the following two ... CE1427         794
+ T-interpolation performed using the following two ... CE1447         794
+ T-interpolation performed using the following two ... DY1567         794
+ T-interpolation performed using the following two ... DY1587         794
+ T-interpolation performed using the following two ... DY1607         794
+ T-interpolation performed using the following two ... DY1617         794
+ T-interpolation performed using the following two ... DY1627         794
+ T-interpolation performed using the following two ... DY1637         794
+ T-interpolation performed using the following two ... DY1647         794
+ T-interpolation performed using the following two ... ER1627         794
+ T-interpolation performed using the following two ... ER1647         794
+ T-interpolation performed using the following two ... ER1667         794
+ T-interpolation performed using the following two ... ER1677         794
+ T-interpolation performed using the following two ... ER1687         794
+ T-interpolation performed using the following two ... ER1707         794
+ T-interpolation performed using the following two ... EU1517         794
+ T-interpolation performed using the following two ... EU1527         794
+ T-interpolation performed using the following two ... EU1537         794
+ T-interpolation performed using the following two ... EU1547         794
+ T-interpolation performed using the following two ... EU1557         794
+ T-interpolation performed using the following two ... EU1567         794
+ T-interpolation performed using the following two ... GD1527         794
+ T-interpolation performed using the following two ... GD1537         794
+ T-interpolation performed using the following two ... GD1547         794
+ T-interpolation performed using the following two ... GD1557         794
+ T-interpolation performed using the following two ... GD1567         794
+ T-interpolation performed using the following two ... GD1577         794
+ T-interpolation performed using the following two ... GD1587         794
+ T-interpolation performed using the following two ... GD1607         794
+ T-interpolation performed using the following two ... HO1657         794
+ T-interpolation performed using the following two ... HO66M7         794
+ T-interpolation performed using the following two ... LA1387         794
+ T-interpolation performed using the following two ... LA1397         794
+ T-interpolation performed using the following two ... ND1427         794
+ T-interpolation performed using the following two ... ND1437         794
+ T-interpolation performed using the following two ... ND1447         794
+ T-interpolation performed using the following two ... ND1457         794
+ T-interpolation performed using the following two ... ND1467         794
+ T-interpolation performed using the following two ... ND1477         794
+ T-interpolation performed using the following two ... ND1487         794
+ T-interpolation performed using the following two ... ND1507         794
+ T-interpolation performed using the following two ... PM1477         794
+ T-interpolation performed using the following two ... PM1487         794
+ T-interpolation performed using the following two ... PM48M7         794
+ T-interpolation performed using the following two ... PR1417         794
+ T-interpolation performed using the following two ... PR1437         794
+ T-interpolation performed using the following two ... SM1477         794
+ T-interpolation performed using the following two ... SM1487         794
+ T-interpolation performed using the following two ... SM1497         794
+ T-interpolation performed using the following two ... SM1507         794
+ T-interpolation performed using the following two ... SM1517         794
+ T-interpolation performed using the following two ... SM1527         794
+ T-interpolation performed using the following two ... SM1547         794
+ T-interpolation performed using the following two ... TB1597         794
+ T-interpolation performed using the following two ... TB1607         794
+ T-interpolation performed using the following two ... Y89__7         794
+ processing elastic scattering matrix ...
+ processing non-elastic scattering matrix ...
+ preparing nu and chi ...
+ generating UFG macro cross sections ...
+ solving the 0D UFG transport equation ...
+ keff=    5  1.012480   0.116445E-01
+ keff=    7  1.000005   0.393391E-05 *converged*
+ updating isotopic and regionwise chi ...
+ condensing 0D UFG to BG cross sections  ...
+ generating BG macro cross sections ...
+ creating ISOTXS with UFG macro cross sections ...
+ recalculated k-eff(UFG based):   17  1.445399
+ recalculated k-eff( BG based):    4  1.448460
+
+ running for region ...   3
+
+ allocating UFG for region ...           3
+ preparing chi matrix ...
+ self-shielding unresolved resonances ...
+ self-shielding resolved resonances ...
+ T-interpolation performed using the following two ... NA23_7         783
+ T-interpolation performed using the following two ... FE54_7         783
+ T-interpolation performed using the following two ... FE56_7         783
+ T-interpolation performed using the following two ... FE57_7         783
+ T-interpolation performed using the following two ... FE58_7         783
+ T-interpolation performed using the following two ... CR50_7         783
+ T-interpolation performed using the following two ... CR52_7         783
+ T-interpolation performed using the following two ... CR53_7         783
+ T-interpolation performed using the following two ... CR54_7         783
+ T-interpolation performed using the following two ... MN55_7         783
+ T-interpolation performed using the following two ... NI58_7         783
+ T-interpolation performed using the following two ... NI60_7         783
+ T-interpolation performed using the following two ... NI61_7         783
+ T-interpolation performed using the following two ... NI62_7         783
+ T-interpolation performed using the following two ... NI64_7         783
+ T-interpolation performed using the following two ... MO92_7         783
+ T-interpolation performed using the following two ... MO94_7         783
+ T-interpolation performed using the following two ... MO95_7         783
+ T-interpolation performed using the following two ... MO96_7         783
+ T-interpolation performed using the following two ... MO97_7         783
+ T-interpolation performed using the following two ... MO98_7         783
+ T-interpolation performed using the following two ... MO1007         783
+ T-interpolation performed using the following two ... C____7         783
+ T-interpolation performed using the following two ... B10__7         783
+ T-interpolation performed using the following two ... B11__7         783
+ processing elastic scattering matrix ...
+ processing non-elastic scattering matrix ...
+ generating UFG macro cross sections ...
+ solving the 0D UFG transport equation ...
+ condensing 0D UFG to BG cross sections  ...
+ generating BG macro cross sections ...
+ creating ISOTXS with UFG macro cross sections ...
+
+ running for region ...   4
+
+ allocating UFG for region ...           4
+ preparing chi matrix ...
+ self-shielding unresolved resonances ...
+ self-shielding resolved resonances ...
+ T-interpolation performed using the following two ... NA23_7         783
+ T-interpolation performed using the following two ... FE54_7         783
+ T-interpolation performed using the following two ... FE56_7         783
+ T-interpolation performed using the following two ... FE57_7         783
+ T-interpolation performed using the following two ... FE58_7         783
+ T-interpolation performed using the following two ... CR50_7         783
+ T-interpolation performed using the following two ... CR52_7         783
+ T-interpolation performed using the following two ... CR53_7         783
+ T-interpolation performed using the following two ... CR54_7         783
+ T-interpolation performed using the following two ... MN55_7         783
+ T-interpolation performed using the following two ... NI58_7         783
+ T-interpolation performed using the following two ... NI60_7         783
+ T-interpolation performed using the following two ... NI61_7         783
+ T-interpolation performed using the following two ... NI62_7         783
+ T-interpolation performed using the following two ... NI64_7         783
+ T-interpolation performed using the following two ... MO92_7         783
+ T-interpolation performed using the following two ... MO94_7         783
+ T-interpolation performed using the following two ... MO95_7         783
+ T-interpolation performed using the following two ... MO96_7         783
+ T-interpolation performed using the following two ... MO97_7         783
+ T-interpolation performed using the following two ... MO98_7         783
+ T-interpolation performed using the following two ... MO1007         783
+ processing elastic scattering matrix ...
+ processing non-elastic scattering matrix ...
+ generating UFG macro cross sections ...
+ solving the 0D UFG transport equation ...
+ condensing 0D UFG to BG cross sections  ...
+ generating BG macro cross sections ...
+ creating ISOTXS with UFG macro cross sections ...
+
+ running for region ...   5
+
+ allocating UFG for region ...           5
+ preparing chi matrix ...
+ self-shielding unresolved resonances ...
+ self-shielding resolved resonances ...
+ T-interpolation performed using the following two ... NA23_7         628
+ T-interpolation performed using the following two ... FE54_7         628
+ T-interpolation performed using the following two ... FE56_7         628
+ T-interpolation performed using the following two ... FE57_7         628
+ T-interpolation performed using the following two ... FE58_7         628
+ T-interpolation performed using the following two ... CR50_7         628
+ T-interpolation performed using the following two ... CR52_7         628
+ T-interpolation performed using the following two ... CR53_7         628
+ T-interpolation performed using the following two ... CR54_7         628
+ T-interpolation performed using the following two ... MN55_7         628
+ T-interpolation performed using the following two ... NI58_7         628
+ T-interpolation performed using the following two ... NI60_7         628
+ T-interpolation performed using the following two ... NI61_7         628
+ T-interpolation performed using the following two ... NI62_7         628
+ T-interpolation performed using the following two ... NI64_7         628
+ T-interpolation performed using the following two ... MO92_7         628
+ T-interpolation performed using the following two ... MO94_7         628
+ T-interpolation performed using the following two ... MO95_7         628
+ T-interpolation performed using the following two ... MO96_7         628
+ T-interpolation performed using the following two ... MO97_7         628
+ T-interpolation performed using the following two ... MO98_7         628
+ T-interpolation performed using the following two ... MO1007         628
+ processing elastic scattering matrix ...
+ processing non-elastic scattering matrix ...
+ generating UFG macro cross sections ...
+ solving the 0D UFG transport equation ...
+ condensing 0D UFG to BG cross sections  ...
+ generating BG macro cross sections ...
+ creating ISOTXS with UFG macro cross sections ...
+
+ running for region ...   6
+
+ allocating UFG for region ...           6
+ preparing chi matrix ...
+ self-shielding unresolved resonances ...
+ self-shielding resolved resonances ...
+ T-interpolation performed using the following two ... NA23_7         628
+ T-interpolation performed using the following two ... FE54_7         628
+ T-interpolation performed using the following two ... FE56_7         628
+ T-interpolation performed using the following two ... FE57_7         628
+ T-interpolation performed using the following two ... FE58_7         628
+ T-interpolation performed using the following two ... CR50_7         628
+ T-interpolation performed using the following two ... CR52_7         628
+ T-interpolation performed using the following two ... CR53_7         628
+ T-interpolation performed using the following two ... CR54_7         628
+ T-interpolation performed using the following two ... MN55_7         628
+ T-interpolation performed using the following two ... NI58_7         628
+ T-interpolation performed using the following two ... NI60_7         628
+ T-interpolation performed using the following two ... NI61_7         628
+ T-interpolation performed using the following two ... NI62_7         628
+ T-interpolation performed using the following two ... NI64_7         628
+ T-interpolation performed using the following two ... MO92_7         628
+ T-interpolation performed using the following two ... MO94_7         628
+ T-interpolation performed using the following two ... MO95_7         628
+ T-interpolation performed using the following two ... MO96_7         628
+ T-interpolation performed using the following two ... MO97_7         628
+ T-interpolation performed using the following two ... MO98_7         628
+ T-interpolation performed using the following two ... MO1007         628
+ T-interpolation performed using the following two ... C____7         628
+ T-interpolation performed using the following two ... B10__7         628
+ T-interpolation performed using the following two ... B11__7         628
+ processing elastic scattering matrix ...
+ processing non-elastic scattering matrix ...
+ generating UFG macro cross sections ...
+ solving the 0D UFG transport equation ...
+ condensing 0D UFG to BG cross sections  ...
+ generating BG macro cross sections ...
+ creating ISOTXS with UFG macro cross sections ...
+
+ running for region ...   7
+
+ allocating UFG for region ...           7
+ preparing chi matrix ...
+ self-shielding unresolved resonances ...
+ self-shielding resolved resonances ...
+ T-interpolation performed using the following two ... NA23_7         628
+ T-interpolation performed using the following two ... FE54_7         628
+ T-interpolation performed using the following two ... FE56_7         628
+ T-interpolation performed using the following two ... FE57_7         628
+ T-interpolation performed using the following two ... FE58_7         628
+ T-interpolation performed using the following two ... CR50_7         628
+ T-interpolation performed using the following two ... CR52_7         628
+ T-interpolation performed using the following two ... CR53_7         628
+ T-interpolation performed using the following two ... CR54_7         628
+ T-interpolation performed using the following two ... MN55_7         628
+ T-interpolation performed using the following two ... NI58_7         628
+ T-interpolation performed using the following two ... NI60_7         628
+ T-interpolation performed using the following two ... NI61_7         628
+ T-interpolation performed using the following two ... NI62_7         628
+ T-interpolation performed using the following two ... NI64_7         628
+ T-interpolation performed using the following two ... MO92_7         628
+ T-interpolation performed using the following two ... MO94_7         628
+ T-interpolation performed using the following two ... MO95_7         628
+ T-interpolation performed using the following two ... MO96_7         628
+ T-interpolation performed using the following two ... MO97_7         628
+ T-interpolation performed using the following two ... MO98_7         628
+ T-interpolation performed using the following two ... MO1007         628
+ processing elastic scattering matrix ...
+ processing non-elastic scattering matrix ...
+ generating UFG macro cross sections ...
+ solving the 0D UFG transport equation ...
+ condensing 0D UFG to BG cross sections  ...
+ generating BG macro cross sections ...
+ creating ISOTXS with UFG macro cross sections ...
+
+ running for region ...   8
+
+ allocating UFG for region ...           8
+ preparing chi matrix ...
+ self-shielding unresolved resonances ...
+ self-shielding resolved resonances ...
+ T-interpolation performed using the following two ... NA23_7         628
+ T-interpolation performed using the following two ... FE54_7         628
+ T-interpolation performed using the following two ... FE56_7         628
+ T-interpolation performed using the following two ... FE57_7         628
+ T-interpolation performed using the following two ... FE58_7         628
+ T-interpolation performed using the following two ... CR50_7         628
+ T-interpolation performed using the following two ... CR52_7         628
+ T-interpolation performed using the following two ... CR53_7         628
+ T-interpolation performed using the following two ... CR54_7         628
+ T-interpolation performed using the following two ... MN55_7         628
+ T-interpolation performed using the following two ... NI58_7         628
+ T-interpolation performed using the following two ... NI60_7         628
+ T-interpolation performed using the following two ... NI61_7         628
+ T-interpolation performed using the following two ... NI62_7         628
+ T-interpolation performed using the following two ... NI64_7         628
+ T-interpolation performed using the following two ... MO92_7         628
+ T-interpolation performed using the following two ... MO94_7         628
+ T-interpolation performed using the following two ... MO95_7         628
+ T-interpolation performed using the following two ... MO96_7         628
+ T-interpolation performed using the following two ... MO97_7         628
+ T-interpolation performed using the following two ... MO98_7         628
+ T-interpolation performed using the following two ... MO1007         628
+ processing elastic scattering matrix ...
+ processing non-elastic scattering matrix ...
+ generating UFG macro cross sections ...
+ solving the 0D UFG transport equation ...
+ condensing 0D UFG to BG cross sections  ...
+ generating BG macro cross sections ...
+ creating ISOTXS with UFG macro cross sections ...
+
+ running for region ...   9
+
+ allocating UFG for region ...           9
+ preparing chi matrix ...
+ self-shielding unresolved resonances ...
+ self-shielding resolved resonances ...
+ T-interpolation performed using the following two ... NA23_7         628
+ T-interpolation performed using the following two ... FE54_7         628
+ T-interpolation performed using the following two ... FE56_7         628
+ T-interpolation performed using the following two ... FE57_7         628
+ T-interpolation performed using the following two ... FE58_7         628
+ T-interpolation performed using the following two ... CR50_7         628
+ T-interpolation performed using the following two ... CR52_7         628
+ T-interpolation performed using the following two ... CR53_7         628
+ T-interpolation performed using the following two ... CR54_7         628
+ T-interpolation performed using the following two ... MN55_7         628
+ T-interpolation performed using the following two ... NI58_7         628
+ T-interpolation performed using the following two ... NI60_7         628
+ T-interpolation performed using the following two ... NI61_7         628
+ T-interpolation performed using the following two ... NI62_7         628
+ T-interpolation performed using the following two ... NI64_7         628
+ T-interpolation performed using the following two ... MO92_7         628
+ T-interpolation performed using the following two ... MO94_7         628
+ T-interpolation performed using the following two ... MO95_7         628
+ T-interpolation performed using the following two ... MO96_7         628
+ T-interpolation performed using the following two ... MO97_7         628
+ T-interpolation performed using the following two ... MO98_7         628
+ T-interpolation performed using the following two ... MO1007         628
+ processing elastic scattering matrix ...
+ processing non-elastic scattering matrix ...
+ generating UFG macro cross sections ...
+ solving the 0D UFG transport equation ...
+ condensing 0D UFG to BG cross sections  ...
+ generating BG macro cross sections ...
+ creating ISOTXS with UFG macro cross sections ...
+ creating ISOTXS.merged ...
+ preparing TWODANT input for UFG macro xs ...
+
+ writing chi ... 2082G
+ running TWODANT ...
+ --------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------
+ Job ended at   15:35:50.13 02/21/2020 cool1934p02.engin.umich.edu
+ mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc
+ mcc                        Job completed successfully                       mcc
+ mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc-mcc
