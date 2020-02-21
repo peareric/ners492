@@ -92,7 +92,8 @@ while line:
         print_file.write(indent+ split_line[0]+'  '+split_line[1]+'  '+ \
                          dens_dict[split_line[0]]+'  '+split_line[3]+'\n')  
       else: # Must be fission product
-        print_file.write(line)
+        print_file.write(indent+ split_line[0]+'  '+split_line[1]+'  '+ \
+                         '1.00000E-20  '+split_line[3]+'\n') 
     elif '! fission products' in line:
       fission_products_zone = True
       print_file.write(line)
