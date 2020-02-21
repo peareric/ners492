@@ -4,22 +4,12 @@
     file. It outputs a MCC3 input file with all number densities replaced 
     specified in the run_densities.txt file replacing whatever previous values
     the original MCC3 input had.
-    Additionally, the output file will have all fission products at infinite 
-    dilution unless a FP_densities.txt file is passed. Given a FP_densities.txt
-    file fission products will similiarly be replaced.
+    Given a FP_densities.txt file, fission products will similiarly be replaced.
 '''
 # Helper functions and maps ####################################################
 
 # For formating
 indent = '                      '
-
-# List of nuclides in HT9 Cladding - Densities are never changed
-clad_list = ['FE54_7', 'FE56_7', 'FE57_7', 'FE58_7', 'CR50_7', 'CR52_7', 
-             'CR53_7', 'CR54_7', 'MN55_7', 'NI58_7', 'NI60_7', 'NI61_7',
-             'NI62_7', 'NI64_7', 'MO92_7', 'MO94_7', 'MO95_7', 'MO96_7',
-             'MO97_7', 'MO98_7', 'MO1007']
-
-coolant_dens;
 
 # Read in densities from run_densities
 def read_dens_to_dict(densities):
@@ -30,25 +20,12 @@ def read_dens_to_dict(densities):
   dens_dict = {}
   while line:
     split_line = line.split()
-    if split_line[0] == 'NA23_7':
-      coolant_dens = split_line[1]
-    else:
-      dens_dict[split_line[0]] = split_line[1]
+    dens_dict[split_line[0]] = split_line[1]
     line = densities.readline()
   return dens_dict
 
-# Helpers to check id's
-def check_is_fuel(dens_dict, id):
+def check_is_modified(dens_dict, id):
   return (id in dens_dict)
-
-def check_is_coolant(id):
-  return (id == 'NA23_7')
-
-def check_is_clad(id):
-  for i in range(len(clad_list)):
-    if id == clad_list[i]:
-      return True
-  return False
 
 # Generate New MCC3 Input ######################################################
 
@@ -82,7 +59,7 @@ original_handle=open(original_inp,'r')
 dens_handle = open(dens_file_name, 'r')
 # Temporary ##########################################################################
 if fp_file_name:
-  print('Only infinite dilution functionality currently implemented')
+  print('not implemented')
 
 # Read in run densities from input
 dens_dict = read_dens_to_dict(dens_handle)
@@ -110,22 +87,12 @@ while line:
   while ('END' not in line) and line:
     if '!' not in line: # Skip comments
       split_line = line.split()
-      if ( (not fission_products_zone) and check_is_clad(split_line[0]) ):
+      if ( (not fission_products_zone) and \
+         check_is_modified(dens_dict, split_line[0]) ):
         print_file.write(indent+ split_line[0]+'  '+split_line[1]+'  '+ \
-                         split_line[2]+'  '+split_line[3]+'\n')
-      elif ( (not fission_products_zone) and 
-             check_is_fuel(dens_dict, split_line[0]) ):
-        print_file.write(indent+ split_line[0]+'  '+split_line[1]+'  '+\
-                         dens_dict[split_line[0]]+'  '+split_line[3]+'\n')
-      elif ( (not fission_products_zone) and check_is_coolant(split_line[0]) ): 
-        print_file.write(indent+split_line[0]+'  '+split_line[1]+'  '+ \
-                         coolant_dens+'  '+split_line[3]+'\n')  
-        #print_file.write(indent+split_line[0]+'  '+split_line[1]+'  '+ \
-        #                split_line[2]+'  '+split_line[3]+'\n')      
+                         dens_dict[split_line[0]]+'  '+split_line[3]+'\n')  
       else: # Must be fission product
         print_file.write(line)
-        #print_file.write(indent+split_line[0]+'  '+split_line[1]+ \
-        #                 '  1.00000E-20  '+split_line[3]+'\n')
     elif '! fission products' in line:
       fission_products_zone = True
       print_file.write(line)

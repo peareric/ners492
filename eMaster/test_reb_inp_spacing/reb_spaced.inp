@@ -217,8 +217,8 @@ DATASET=A.NIP3
    *** >>> Check point : Zr/O number density for different Zr w/o and oxide fuel
    ******************************************************************************
 
-   * U-20Pu-10Zr, density = 15.73 g/cc, ANL-IFR-29
-13          FUELI U234I      1.0    
+   * U-10Zr fuel - START
+13          FUELI U234I      1.0   
 13          FUELI U235I      1.0    
 13          FUELI U236I      1.0
 13          FUELI U238I      1.0    
@@ -266,7 +266,7 @@ DATASET=A.NIP3
 13          FUELI Zr92I  1.78083E-03
 13          FUELI Zr94I  1.80471E-03
 13          FUELI Zr96I  2.90747E-04                      
-
+* Switching to outter core
 13          FUELO U234O      1.0    
 13          FUELO U235O      1.0    
 13          FUELO U236O      1.0
@@ -315,6 +315,7 @@ DATASET=A.NIP3
 13          FUELO Zr92O  1.78083E-03
 13          FUELO Zr94O  1.80471E-03
 13          FUELO Zr96O  2.90747E-04
+ * Fuel input END
 
   * Na coolant, density from Fink and Leibowitz (rho=0.850257 at 432.5 C)
 13          CLNTI Na23I  8.05594E-03
@@ -1658,6 +1659,7 @@ DATASET=A.BURN
    *** >>> Check point : different fuel density and fuel form
    ******************************************************************************
 
+* 
 13    ICLOAD      U-234  3.64276E-02
 13    ICLOAD      U-235  3.62721E-02
 13    ICLOAD      U-236  3.61182E-02
@@ -1784,7 +1786,7 @@ DATASET=A.BURN
 24    LEC44      0    94 72.24
 24    DUMP1      0    92 232.0371
 24    DUMP2      0    96 246.0672
-29    ICORE MCORE OCORE       
+29    TCORE ICORE OCORE    
 
    ******************************************************************************
    *** >>> Check point :cycle length and number of batches
