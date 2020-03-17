@@ -8,6 +8,8 @@
 '''
 # Helper functions and maps ####################################################
 
+ctr_rods = ['C____7','B10__7','B11__7']
+
 # For formating
 indent = '                      '
 
@@ -25,7 +27,7 @@ def read_dens_to_dict(densities):
   return dens_dict
 
 def check_is_modified(dens_dict, id):
-  return (id in dens_dict)
+  return (id in dens_dict or id in ctr_rods)
 
 # Generate New MCC3 Input ######################################################
 
@@ -89,8 +91,11 @@ while line:
       split_line = line.split()
       if ( (not fission_products_zone) and \
          check_is_modified(dens_dict, split_line[0]) ):
-        print_file.write(indent+ split_line[0]+'  '+split_line[1]+'  '+ \
-                         dens_dict[split_line[0]]+'  '+split_line[3]+'\n')  
+        if split_line[0] in ctr_rods:
+          print_file.write(line)
+        else:
+          print_file.write(indent+ split_line[0]+'  '+split_line[1]+'  '+ \
+                           dens_dict[split_line[0]]+'  '+split_line[3]+'\n')  
       else: # Must be fission product
         print_file.write(indent+ split_line[0]+'  '+split_line[1]+'  '+ \
                          '1.00000E-20  '+split_line[3]+'\n') 
