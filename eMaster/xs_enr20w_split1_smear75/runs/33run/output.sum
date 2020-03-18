@@ -1,5 +1,0 @@
- input  file: input               (standard input)
- output file: output              (standard output)
-input  file:rzmflx(ultrafine-group spectrum file)
- input  file: rzmflx              (zone-wise fluxes and moments)
- output file: ISOTXS.merged       (merged ISOTXS in binary format)
