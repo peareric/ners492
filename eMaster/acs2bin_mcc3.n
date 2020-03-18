@@ -1,0 +1,29 @@
+#!/bin/ksh
+
+cp ABR1000_MCC3.33g.n.ISOTXS.IC ISOTXS.IC
+cp ABR1000_MCC3.33g.n.ISOTXS.OC ISOTXS.OC
+cp ABR1000_MCC3.33g.n.ISOTXS.other ISOTXS.other
+
+src=/usr/um/ners-442/mcc-3/
+
+#
+# Convert to ASCII and
+# Merge All Cross Sections 
+# From ISOTXS Files Generated In ABR1000_MCC.33g.n
+#
+cat > input << EOF
+\$control
+   c_isotxs_conversion = asc2bin
+/
+\$output
+   c_isotxs_file = ISOTXS
+/
+EOF
+
+$src/mcc3_v312_2017_12_12.x
+
+mv output        $0.out
+mv ISOTXS.merged $0.ISOTXS.all
+rm ISOTXS.IC
+rm ISOTXS.OC
+rm ISOTXS.other
