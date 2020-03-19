@@ -1,0 +1,1696 @@
+BLOCK=OLD
+DATASET=ISOTXS
+BLOCK=STP027
+DATASET=A.SUMMAR
+01                                                         1
+02         Y           8
+03         0
+04         4FU35I FU35O
+04         4FU38I FU38O
+04         4FN37I FN37O
+04         4FP38I FP38O
+04         4FP39I FP39O
+04         4FP40I FP40O
+04         4FP41I FP41O
+04         4FP42I FP42O
+04         4FA41I FA41O
+04         4FA43I FA43O
+04         4FC44I FC44O
+04         4EU35I EU35O
+04         4EU38I EU38O
+04         4EN37I EN37O
+04         4EP38I EP38O
+04         4EP39I EP39O
+04         4EP40I EP40O
+04         4EP41I EP41O
+04         4EP42I EP42O
+04         4EA41I EA41O
+04         4EA43I EA43O
+04         4EC44I EC44O
+04         3Pu36I Pu36O
+04         3Cm42I Cm42O
+04         3Cm43I Cm43O
+04         3Cm44I Cm44O
+04         3Cm45I Cm45O
+04         3Cm46I Cm46O
+04         3A42mI A42mO
+05    PU2365SPEC   236.045761 Pu36I Pu36O
+05    CM2425SPEC   242.058426 Cm42I Cm42O
+05    CM2435SPEC   243.061035 Cm43I Cm43O
+05    CM2445SPEC   244.062637 Cm44I Cm44O
+05    CM2455SPEC   245.065247 Cm45I Cm45O
+05    CM2465SPEC   246.066849 Cm46I Cm46O
+05    AM242MSPEC   242.059433 A42mI A42mO
+DATASET=A.STP027
+01         0     0     0     0     0     0     0     0     0
+02         0     1     0     0     0     0     1     0     0
+03         0     1     0     1     1     2     1     1
+06         1
+06         1
+DATASET=A.DIF3D
+01
+01  ************************************************************
+01            A.DIF3D :  ABR  1000MWt, 12-Month
+01  ************************************************************    
+01
+02    999000999000
+03         0     0     0     0    50
+04         0     0     0    00   000    10   100     0     0     0     0
+    05            .000001    .0001       .0001
+05               1.0E-07     1.0E-05     1.0E-05
+06                                                 333.333+6
+
+DATASET=A.HMG4C
+01    TURN OFF HMG4C EDITS
+02     60000     1     0     0     0     1
+DATASET=A.NIP3
+01
+01  ************************************************************
+01             A.NIP3 :  ABR  1000MWt, 12-Month
+01  ************************************************************    
+01
+02               0     1 90000       90000                       1     1
+03             126
+04               7     4     0     4     4     4
+
+
+07    TCORE IC21D IC22D
+07    TCORE IC21E IC22E
+07    TCORE IC21F IC22F
+07    TCORE IC21G IC22G
+07    TCORE IC21H IC22H
+07    TCORE IC31D IC32D IC33D IC34D 
+07    TCORE IC31E IC32E IC33E IC34E 
+07    TCORE IC31F IC32F IC33F IC34F 
+07    TCORE IC31G IC32G IC33G IC34G 
+07    TCORE IC31H IC32H IC33H IC34H 
+07    TCORE IC42D IC43D IC45D IC46D 
+07    TCORE IC42E IC43E IC45E IC46E 
+07    TCORE IC42F IC43F IC45F IC46F 
+07    TCORE IC42G IC43G IC45G IC46G 
+07    TCORE IC42H IC43H IC45H IC46H 
+07    TCORE IC51D IC52D IC53D IC54D IC55D IC56D IC58D IC59D
+07    TCORE IC51E IC52E IC53E IC54E IC55E IC56E IC58E IC59E
+07    TCORE IC51F IC52F IC53F IC54F IC55F IC56F IC58F IC59F
+07    TCORE IC51G IC52G IC53G IC54G IC55G IC56G IC58G IC59G
+07    TCORE IC51H IC52H IC53H IC54H IC55H IC56H IC58H IC59H
+07    TCORE IC62D IC65D IC67D IC60D
+07    TCORE IC62E IC65E IC67E IC60E
+07    TCORE IC62F IC65F IC67F IC60F
+07    TCORE IC62G IC65G IC67G IC60G
+07    TCORE IC62H IC65H IC67H IC60H
+07    TCORE IC63D IC64D IC68D IC69D
+07    TCORE IC63E IC64E IC68E IC69E
+07    TCORE IC63F IC64F IC68F IC69F
+07    TCORE IC63G IC64G IC68G IC69G
+07    TCORE IC63H IC64H IC68H IC69H
+
+07    TCORE OC61D OC66D 
+07    TCORE OC61E OC66E 
+07    TCORE OC61F OC66F 
+07    TCORE OC61G OC66G 
+07    TCORE OC61H OC66H 
+07    TCORE OC72D OC73D OC75D OC76D OC78D OC79D OC7AD OC7BD 
+07    TCORE OC72E OC73E OC75E OC76E OC78E OC79E OC7AE OC7BE 
+07    TCORE OC72F OC73F OC75F OC76F OC78F OC79F OC7AF OC7BF 
+07    TCORE OC72G OC73G OC75G OC76G OC78G OC79G OC7AG OC7BG 
+07    TCORE OC72H OC73H OC75H OC76H OC78H OC79H OC7AH OC7BH 
+07    TCORE OC81D OC82D OC83D OC84D OC85D OC86D OC87D OC88D
+07    TCORE OC81E OC82E OC83E OC84E OC85E OC86E OC87E OC88E
+07    TCORE OC81F OC82F OC83F OC84F OC85F OC86F OC87F OC88F
+07    TCORE OC81G OC82G OC83G OC84G OC85G OC86G OC87G OC88G
+07    TCORE OC81H OC82H OC83H OC84H OC85H OC86H OC87H OC88H
+07    TCORE OC89D OC80D OC8AD OC8BD OC8CD OC8DD
+07    TCORE OC89E OC80E OC8AE OC8BE OC8CE OC8DE
+07    TCORE OC89F OC80F OC8AF OC8BF OC8CF OC8DF
+07    TCORE OC89G OC80G OC8AG OC8BG OC8CG OC8DG
+07    TCORE OC89H OC80H OC8AH OC8BH OC8CH OC8DH
+07    TCORE OC93D OC94D OC95D OC96D OC97D 
+07    TCORE OC93E OC94E OC95E OC96E OC97E 
+07    TCORE OC93F OC94F OC95F OC96F OC97F 
+07    TCORE OC93G OC94G OC95G OC96G OC97G 
+07    TCORE OC93H OC94H OC95H OC96H OC97H 
+07    TCORE OC9AD OC9BD OC9CD OC9DD OC9ED 
+07    TCORE OC9AE OC9BE OC9CE OC9DE OC9EE 
+07    TCORE OC9AF OC9BF OC9CF OC9DF OC9EF 
+07    TCORE OC9AG OC9BG OC9CG OC9DG OC9EG 
+07    TCORE OC9AH OC9BH OC9CH OC9DH OC9EH 
+
+07    ICORE IC21D IC22D
+07    ICORE IC21E IC22E
+07    ICORE IC21F IC22F
+07    ICORE IC21G IC22G
+07    ICORE IC21H IC22H
+07    ICORE IC31D IC32D IC33D IC34D 
+07    ICORE IC31E IC32E IC33E IC34E 
+07    ICORE IC31F IC32F IC33F IC34F 
+07    ICORE IC31G IC32G IC33G IC34G 
+07    ICORE IC31H IC32H IC33H IC34H 
+07    ICORE IC42D IC43D IC45D IC46D 
+07    ICORE IC42E IC43E IC45E IC46E 
+07    ICORE IC42F IC43F IC45F IC46F 
+07    ICORE IC42G IC43G IC45G IC46G 
+07    ICORE IC42H IC43H IC45H IC46H 
+07    ICORE IC51D IC52D IC53D IC54D IC55D IC56D IC58D IC59D
+07    ICORE IC51E IC52E IC53E IC54E IC55E IC56E IC58E IC59E
+07    ICORE IC51F IC52F IC53F IC54F IC55F IC56F IC58F IC59F
+07    ICORE IC51G IC52G IC53G IC54G IC55G IC56G IC58G IC59G
+07    ICORE IC51H IC52H IC53H IC54H IC55H IC56H IC58H IC59H
+07    ICORE IC62D IC65D IC67D IC60D
+07    ICORE IC62E IC65E IC67E IC60E
+07    ICORE IC62F IC65F IC67F IC60F
+07    ICORE IC62G IC65G IC67G IC60G
+07    ICORE IC62H IC65H IC67H IC60H
+07    ICORE IC63D IC64D IC68D IC69D
+07    ICORE IC63E IC64E IC68E IC69E
+07    ICORE IC63F IC64F IC68F IC69F
+07    ICORE IC63G IC64G IC68G IC69G
+07    ICORE IC63H IC64H IC68H IC69H
+
+07    OCORE OC61D OC66D 
+07    OCORE OC61E OC66E 
+07    OCORE OC61F OC66F 
+07    OCORE OC61G OC66G 
+07    OCORE OC61H OC66H 
+07    OCORE OC72D OC73D OC75D OC76D OC78D OC79D OC7AD OC7BD 
+07    OCORE OC72E OC73E OC75E OC76E OC78E OC79E OC7AE OC7BE 
+07    OCORE OC72F OC73F OC75F OC76F OC78F OC79F OC7AF OC7BF 
+07    OCORE OC72G OC73G OC75G OC76G OC78G OC79G OC7AG OC7BG 
+07    OCORE OC72H OC73H OC75H OC76H OC78H OC79H OC7AH OC7BH 
+07    OCORE OC81D OC82D OC83D OC84D OC85D OC86D OC87D OC88D
+07    OCORE OC81E OC82E OC83E OC84E OC85E OC86E OC87E OC88E
+07    OCORE OC81F OC82F OC83F OC84F OC85F OC86F OC87F OC88F
+07    OCORE OC81G OC82G OC83G OC84G OC85G OC86G OC87G OC88G
+07    OCORE OC81H OC82H OC83H OC84H OC85H OC86H OC87H OC88H
+07    OCORE OC89D OC80D OC8AD OC8BD OC8CD OC8DD
+07    OCORE OC89E OC80E OC8AE OC8BE OC8CE OC8DE
+07    OCORE OC89F OC80F OC8AF OC8BF OC8CF OC8DF
+07    OCORE OC89G OC80G OC8AG OC8BG OC8CG OC8DG
+07    OCORE OC89H OC80H OC8AH OC8BH OC8CH OC8DH
+07    OCORE OC93D OC94D OC95D OC96D OC97D 
+07    OCORE OC93E OC94E OC95E OC96E OC97E 
+07    OCORE OC93F OC94F OC95F OC96F OC97F 
+07    OCORE OC93G OC94G OC95G OC96G OC97G 
+07    OCORE OC93H OC94H OC95H OC96H OC97H 
+07    OCORE OC9AD OC9BD OC9CD OC9DD OC9ED 
+07    OCORE OC9AE OC9BE OC9CE OC9DE OC9EE 
+07    OCORE OC9AF OC9BF OC9CF OC9DF OC9EF 
+07    OCORE OC9AG OC9BG OC9CG OC9DG OC9EG 
+07    OCORE OC9AH OC9BH OC9CH OC9DH OC9EH 
+
+   ******************************************************************************
+   *** >>> Check point : different core height
+   ******************************************************************************
+
+09         Z     2  35.76
+09         Z     7 142.81
+09         Z     1 160.92
+09         Z     1 178.08
+09         Z     1 195.25
+09         Z     1 212.41
+09         Z     1 229.58
+09         Z     1 246.74
+09         Z     1 266.80
+09         Z     4 333.50
+09         Z     3 371.90
+09         Z     5 484.29
+
+   ******************************************************************************
+   *** >>> Check point : Zr/O number density for different Zr w/o and oxide fuel
+   ******************************************************************************
+
+   * U-20Pu-10Zr, density = 15.73 g/cc, ANL-IFR-29
+13          FUELI U234I      1.0    U235I      1.0    U236I      1.0
+13          FUELI U238I      1.0    Pu36I      0.0    Pu38I      1.0
+13          FUELI Pu39I      1.0    Pu40I      1.0    Pu41I      1.0
+13          FUELI Pu42I      1.0    Np37I      1.0    A241I      1.0
+13          FUELI A42mI      0.0    A243I      0.0    Cm42I      0.0
+13          FUELI Cm43I      0.0    Cm44I      1.0    Cm45I      0.0
+13          FUELI Cm46I      0.0    DUMP1      1.0    DUMP2      1.0
+13          FUELI FU35I      1.0    FU38I      1.0    FN37I      1.0
+13          FUELI FP38I      1.0    FP39I      1.0    FP40I      1.0
+13          FUELI FP41I      1.0    FP42I      1.0    FA41I      1.0
+13          FUELI FA43I      0.0    FC44I      1.0    EU35I      1.0
+13          FUELI EU38I      1.0    EN37I      1.0    EP38I      1.0
+13          FUELI EP39I      1.0    EP40I      1.0    EP41I      1.0
+13          FUELI EP42I      1.0    EA41I      1.0    EA43I      0.0
+13          FUELI EC44I      1.0    Zr90I  5.34249E-03Zr91I  1.16507E-03
+13          FUELI Zr92I  1.78083E-03Zr94I  1.80471E-03Zr96I  2.90747E-04                      
+
+13          FUELO U234O      1.0    U235O      1.0    U236O      1.0
+13          FUELO U238O      1.0    Pu36O      0.0    Pu38O      1.0
+13          FUELO Pu39O      1.0    Pu40O      1.0    Pu41O      1.0
+13          FUELO Pu42O      1.0    Np37O      1.0    A241O      1.0
+13          FUELO A42mO      0.0    A243O      0.0    Cm42O      0.0
+13          FUELO Cm43O      0.0    Cm44O      1.0    Cm45O      0.0
+13          FUELO Cm46O      0.0    DUMP1      1.0    DUMP2      1.0
+13          FUELO FU35O      1.0    FU38O      1.0    FN37O      1.0
+13          FUELO FP38O      1.0    FP39O      1.0    FP40O      1.0
+13          FUELO FP41O      1.0    FP42O      1.0    FA41O      1.0
+13          FUELO FA43O      0.0    FC44O      1.0    EU35O      1.0
+13          FUELO EU38O      1.0    EN37O      1.0    EP38O      1.0
+13          FUELO EP39O      1.0    EP40O      1.0    EP41O      1.0
+13          FUELO EP42O      1.0    EA41O      1.0    EA43O      0.0
+13          FUELO EC44O      1.0    Zr90O  5.34249E-03Zr91O  1.16507E-03
+13          FUELO Zr92O  1.78083E-03Zr94O  1.80471E-03Zr96O  2.90747E-04
+
+  * Na coolant, density from Fink and Leibowitz (rho=0.850257 at 432.5 C)
+13          CLNTI Na23I  8.05594E-03
+13          CLNTO Na23O  8.05594E-03
+13          CLNTR Na23R  8.05594E-03
+13          CLNTS Na23S  8.05594E-03
+13          CLNTU Na23U  8.05594E-03
+
+  * HT9, density = 7.76 g/cc, ASTM A826-88
+13          HT9 I Fe54I  4.15139E-03Fe56I  6.51681E-02
+13          HT9 I Fe57I  1.50501E-03Fe58I  2.00290E-04Cr50I  4.58860E-04
+13          HT9 I Cr52I  8.84861E-03Cr53I  1.00336E-03Cr54I  2.49758E-04
+13          HT9 I Mn55I  4.67860E-04Ni58I  2.98126E-04Ni60I  1.14837E-04
+13          HT9 I Ni61I  4.99190E-06Ni62I  1.59168E-05Ni64I  4.05300E-06
+13          HT9 I Mo92I  7.25434E-05Mo94I  4.56827E-05Mo95I  7.90837E-05
+13          HT9 I Mo96I  8.32275E-05Mo97I  4.79295E-05Mo98I  1.21771E-04
+13          HT9 I Mo00I  4.90281E-05
+13          HT9 O Fe54O  4.15139E-03Fe56O  6.51681E-02
+13          HT9 O Fe57O  1.50501E-03Fe58O  2.00290E-04Cr50O  4.58860E-04
+13          HT9 O Cr52O  8.84861E-03Cr53O  1.00336E-03Cr54O  2.49758E-04
+13          HT9 O Mn55O  4.67860E-04Ni58O  2.98126E-04Ni60O  1.14837E-04
+13          HT9 O Ni61O  4.99190E-06Ni62O  1.59168E-05Ni64O  4.05300E-06
+13          HT9 O Mo92O  7.25434E-05Mo94O  4.56827E-05Mo95O  7.90837E-05
+13          HT9 O Mo96O  8.32275E-05Mo97O  4.79295E-05Mo98O  1.21771E-04
+13          HT9 O Mo00O  4.90281E-05
+13          HT9 R Fe54R  4.15139E-03Fe56R  6.51681E-02
+13          HT9 R Fe57R  1.50501E-03Fe58R  2.00290E-04Cr50R  4.58860E-04
+13          HT9 R Cr52R  8.84861E-03Cr53R  1.00336E-03Cr54R  2.49758E-04
+13          HT9 R Mn55R  4.67860E-04Ni58R  2.98126E-04Ni60R  1.14837E-04
+13          HT9 R Ni61R  4.99190E-06Ni62R  1.59168E-05Ni64R  4.05300E-06
+13          HT9 R Mo92R  7.25434E-05Mo94R  4.56827E-05Mo95R  7.90837E-05
+13          HT9 R Mo96R  8.32275E-05Mo97R  4.79295E-05Mo98R  1.21771E-04
+13          HT9 R Mo00R  4.90281E-05
+13          HT9 S Fe54S  4.15139E-03Fe56S  6.51681E-02
+13          HT9 S Fe57S  1.50501E-03Fe58S  2.00290E-04Cr50S  4.58860E-04
+13          HT9 S Cr52S  8.84861E-03Cr53S  1.00336E-03Cr54S  2.49758E-04
+13          HT9 S Mn55S  4.67860E-04Ni58S  2.98126E-04Ni60S  1.14837E-04
+13          HT9 S Ni61S  4.99190E-06Ni62S  1.59168E-05Ni64S  4.05300E-06
+13          HT9 S Mo92S  7.25434E-05Mo94S  4.56827E-05Mo95S  7.90837E-05
+13          HT9 S Mo96S  8.32275E-05Mo97S  4.79295E-05Mo98S  1.21771E-04
+13          HT9 S Mo00S  4.90281E-05
+13          HT9 U Fe54U  4.15139E-03Fe56U  6.51681E-02
+13          HT9 U Fe57U  1.50501E-03Fe58U  2.00290E-04Cr50U  4.58860E-04
+13          HT9 U Cr52U  8.84861E-03Cr53U  1.00336E-03Cr54U  2.49758E-04
+13          HT9 U Mn55U  4.67860E-04Ni58U  2.98126E-04Ni60U  1.14837E-04
+13          HT9 U Ni61U  4.99190E-06Ni62U  1.59168E-05Ni64U  4.05300E-06
+13          HT9 U Mo92U  7.25434E-05Mo94U  4.56827E-05Mo95U  7.90837E-05
+13          HT9 U Mo96U  8.32275E-05Mo97U  4.79295E-05Mo98U  1.21771E-04
+13          HT9 U Mo00U  4.90281E-05
+  * SS-316, density = 7.97 g/cc, /data/RA/PADB/SAMATL
+13          S316R Fe54B  3.09361E-03Fe56B  4.85632E-02
+13          S316R Fe57B  1.12153E-03Fe58B  1.49256E-04Cr50B  4.68615E-04
+13          S316R Cr52B  9.03672E-03Cr53B  1.02469E-03Cr54B  2.55068E-04
+13          S316R Mn55B  1.69487E-03Ni58B  7.39854E-03Ni60B  2.84989E-03
+13          S316R Ni61B  1.23883E-04Ni62B  3.95004E-04Ni64B  1.00583E-04
+13          S316R Mo92B  2.10802E-04Mo94B  1.32748E-04Mo95B  2.29807E-04
+13          S316R Mo96B  2.41848E-04Mo97B  1.39277E-04Mo98B  3.53850E-04
+13          S316R Mo00B  1.42469E-04
+
+  * B4C (Natural and 60% enriched Boron), density = 2.268 g/cc, 90% TD, www.azom.com
+13          B4CPN B10_U  1.96826E-02B11_U  7.92250E-02C12_U  2.47269E-02
+13          B4CPE B10_U  6.35143E-02B11_U  3.85107E-02C12_U  2.55063E-02
+
+  * B4C shield (Radial, 90% TD)
+13          B4CR  B10_S  5.30402E-02B11_S  4.82399E-02C12_S  2.53200E-02
+
+   ******************************************************************************
+   *** >>> Check point : volume fraction for different designs
+   ******************************************************************************
+
+     * 5% axial swelling, 0.653% radial expansion, 0.561% axial expansion                 
+14          ICSC  FUELI   0.340050  HT9 I   0.251840  CLNTI   0.408110                
+14          OCSC  FUELO   0.340050  HT9 O   0.251840  CLNTO   0.408110                  
+14          LPSC  S316R   0.3       CLNTR   0.7                                                 
+14          LRSC  HT9 R   0.634666  CLNTR   0.353408                                      
+14          UPSC1 HT9 R   0.251870  CLNTR   0.743397                                      
+14          UPSC  HT9 R   0.251870  CLNTR   0.353408                                      
+14          USSC  HT9 R   0.634666  CLNTR   0.353408                                      
+
+  * pellet volume fraction for B4C with thermal expansion                                           
+14          CRBSN B4CPN   0.426125  HT9 U   0.203886  CLNTU   0.288252                                      
+14          CRBSE B4CPE   0.426125  HT9 U   0.203886  CLNTU   0.288252 
+
+14          CRCSC HT9 I   0.090930  CLNTI   0.907361                                      
+14          CRFSC HT9 I   0.258337  CLNTI   0.736809                                      
+14          CRPSC HT9 R   0.203886  CLNTR   0.288252                                      
+                                                                                                                 
+    * reflector and shield                                                                                                                
+14          REFSC HT9 R   0.829436  CLNTR   0.154978                                      
+14          RS2SC B4CR    0.428810  HT9 S   0.291313  CLNTS   0.170959                                      
+14          BRSC  S316R   0.345790  CLNTS   0.554781                                      
+
+  * primary compositions
+14          ICPC  ICSC     1.0
+14          OCPC  OCSC     1.0
+14          LPPC  LPSC     1.0
+14          LRPC  LRSC     1.0
+14          UPPC1 UPSC1    1.0
+14          UPPC  UPSC     1.0
+14          USPC  USSC     1.0
+14          BRPC  BRSC     1.0
+14          CRBPN CRBSN    1.0
+14          CRBPE CRBSE    1.0
+14          CRCPC CRCSC    1.0
+14          CRFPC CRFSC    1.0
+14          CRPPC CRPSC    1.0
+14          REFPC REFSC    1.0
+14          RS2PC RS2SC    1.0
+
+   ******************************************************************************
+   *** >>> Check point : assembly pitch
+   ******************************************************************************
+    * normally 16.2471
+29               16.2471
+
+    * Notation of region (ABCEF)
+      
+      AB  = IC/MC/OC/CP/CS/RF/SH/BA = IC/MC/OC/primary CR/secondary CR/reflector/shield/barrel
+      
+      C  = ring numbering    = 1/2/3/4/5/6/7/8/9/0/A/B/C.....
+      D = hexagon numbering  = 1/2/3/4/5/6/7/8/9/0/A/B/C..... CONTER CLOCKWISE
+      F  = A/B/C/D/E/F/G/H/I/J/K
+      
+         *** Fuel
+         A              LOWER STRUCTURE/POOL
+         B              LOWER REFLECTOR
+         D,E,F,G,H      ACTIVE CORE
+         I,J            FISSION-GAS PLENUM
+         K              UPPER STRUCTURE
+         *** Control rods
+         A              LOWER STRUCTURE/POOL
+         B              LOWER REFLECTOR
+         C              Empty for Control rod
+         G              Follower
+         H              Absorber
+         I              Gas plenum
+         K              UPPER STRUCTURE    
+         *** REFLECTOR/SHIELD
+         A              LOWER STRUCTURE/POOL
+         G              REFLELCTOR/SHIELD 
+         K              UPPER STRUCTURE    
+         *** BARREL
+         G              BARREL
+
+   ******************************************************************************
+   *** >>> Check point : Different core configuration
+   ******************************************************************************
+
+    * Ring 1 = Control Rod (Natural Boron)
+    
+15    LPPC  CS11A  
+15    LRPC  CS11B 
+15    CRCPC CS11C 
+15    CRFPC CS11G 
+15    CRBPN CS11H 
+15    CRPPC CS11I 
+15    USPC  CS11K 
+
+30    CS11A      1     0     0        0.0        35.76
+30    CS11B      1     0     0       35.76      142.81
+30    CS11C      1     0     0      142.81      229.58
+30    CS11G      1     0     0      229.58      246.74
+30    CS11H      1     0     0      246.74      333.50
+30    CS11I      1     0     0      333.50      371.90
+30    CS11K      1     0     0      371.90      484.29 
+        
+    * Ring 2 = Inner core
+    
+15    LPPC  IC21A IC22A
+15    LRPC  IC21B IC22B
+15    ICPC  IC21D IC22D
+15    ICPC  IC21E IC22E
+15    ICPC  IC21F IC22F
+15    ICPC  IC21G IC22G
+15    ICPC  IC21H IC22H
+15    UPPC1 IC21I IC22I 
+15    UPPC  IC21J IC22J
+15    USPC  IC21K IC22K
+
+30    IC21A      2     1     1        0.0        35.76
+30    IC21B      2     1     1       35.76      160.92
+30    IC21D      2     1     1      160.92      178.08
+30    IC21E      2     1     1      178.08      195.25
+30    IC21F      2     1     1      195.25      212.41
+30    IC21G      2     1     1      212.41      229.58
+30    IC21H      2     1     1      229.58      246.74
+30    IC21I      2     1     1      246.74      266.80
+30    IC21J      2     1     1      266.80      371.90
+30    IC21K      2     1     1      371.90      484.29
+                                                      
+30    IC22A      2     2     2        0.0        35.76
+30    IC22B      2     2     2       35.76      160.92
+30    IC22D      2     2     2      160.92      178.08
+30    IC22E      2     2     2      178.08      195.25
+30    IC22F      2     2     2      195.25      212.41
+30    IC22G      2     2     2      212.41      229.58
+30    IC22H      2     2     2      229.58      246.74
+30    IC22I      2     2     2      246.74      266.80
+30    IC22J      2     2     2      266.80      371.90
+30    IC22K      2     2     2      371.90      484.29
+
+    * Ring 3 = Inner core
+    2
+15    LPPC  IC31A IC32A IC33A IC34A 
+15    LRPC  IC31B IC32B IC33B IC34B 
+15    ICPC  IC31D IC32D IC33D IC34D 
+15    ICPC  IC31E IC32E IC33E IC34E 
+15    ICPC  IC31F IC32F IC33F IC34F 
+15    ICPC  IC31G IC32G IC33G IC34G 
+15    ICPC  IC31H IC32H IC33H IC34H 
+15    UPPC1 IC31I IC32I IC33I IC34I 
+15    UPPC  IC31J IC32J IC33J IC34J 
+15    USPC  IC31K IC32K IC33K IC34K 
+
+30    IC34A      3    12    12        0.0        35.76
+30    IC34B      3    12    12       35.76      160.92
+30    IC34D      3    12    12      160.92      178.08
+30    IC34E      3    12    12      178.08      195.25
+30    IC34F      3    12    12      195.25      212.41
+30    IC34G      3    12    12      212.41      229.58
+30    IC34H      3    12    12      229.58      246.74
+30    IC34I      3    12    12      246.74      266.80
+30    IC34J      3    12    12      266.80      371.90
+30    IC34K      3    12    12      371.90      484.29
+
+30    IC31A      3     1     1        0.0        35.76
+30    IC31B      3     1     1       35.76      160.92
+30    IC31D      3     1     1      160.92      178.08
+30    IC31E      3     1     1      178.08      195.25
+30    IC31F      3     1     1      195.25      212.41
+30    IC31G      3     1     1      212.41      229.58
+30    IC31H      3     1     1      229.58      246.74
+30    IC31I      3     1     1      246.74      266.80
+30    IC31J      3     1     1      266.80      371.90
+30    IC31K      3     1     1      371.90      484.29
+
+30    IC32A      3     2     2        0.0        35.76
+30    IC32B      3     2     2       35.76      160.92
+30    IC32D      3     2     2      160.92      178.08
+30    IC32E      3     2     2      178.08      195.25
+30    IC32F      3     2     2      195.25      212.41
+30    IC32G      3     2     2      212.41      229.58
+30    IC32H      3     2     2      229.58      246.74
+30    IC32I      3     2     2      246.74      266.80
+30    IC32J      3     2     2      266.80      371.90
+30    IC32K      3     2     2      371.90      484.29
+
+30    IC33A      3     3     3        0.0        35.76
+30    IC33B      3     3     3       35.76      160.92
+30    IC33D      3     3     3      160.92      178.08
+30    IC33E      3     3     3      178.08      195.25
+30    IC33F      3     3     3      195.25      212.41
+30    IC33G      3     3     3      212.41      229.58
+30    IC33H      3     3     3      229.58      246.74
+30    IC33I      3     3     3      246.74      266.80
+30    IC33J      3     3     3      266.80      371.90
+30    IC33K      3     3     3      371.90      484.29
+
+    * Ring 4 = Inner core / CR (Natural Boron)
+    
+15    LPPC  CS41A CP44A
+15    LRPC  CS41B CP44B
+15    CRCPC CS41C CP44C
+15    CRFPC CS41G CP44G
+15    CRBPN CS41H CP44H
+15    CRPPC CS41I CP44I
+15    USPC  CS41K CP44K
+
+15    LPPC  IC42A IC43A IC45A IC46A 
+15    LRPC  IC42B IC43B IC45B IC46B 
+15    ICPC  IC42D IC43D IC45D IC46D 
+15    ICPC  IC42E IC43E IC45E IC46E 
+15    ICPC  IC42F IC43F IC45F IC46F 
+15    ICPC  IC42G IC43G IC45G IC46G 
+15    ICPC  IC42H IC43H IC45H IC46H 
+15    UPPC1 IC42I IC43I IC45I IC46I 
+15    UPPC  IC42J IC43J IC45J IC46J 
+15    USPC  IC42K IC43K IC45K IC46K 
+
+30    IC46A      4    18    18        0.0        35.76
+30    IC46B      4    18    18       35.76      160.92
+30    IC46D      4    18    18      160.92      178.08
+30    IC46E      4    18    18      178.08      195.25
+30    IC46F      4    18    18      195.25      212.41
+30    IC46G      4    18    18      212.41      229.58
+30    IC46H      4    18    18      229.58      246.74
+30    IC46I      4    18    18      246.74      266.80
+30    IC46J      4    18    18      266.80      371.90
+30    IC46K      4    18    18      371.90      484.29
+
+30    CS41A      4     1     1        0.0        35.76
+30    CS41B      4     1     1       35.76      142.81
+30    CS41C      4     1     1      142.81      229.58
+30    CS41G      4     1     1      229.58      246.74
+30    CS41H      4     1     1      246.74      333.50
+30    CS41I      4     1     1      333.50      371.90
+30    CS41K      4     1     1      371.90      484.29
+
+30    IC42A      4     2     2        0.0        35.76
+30    IC42B      4     2     2       35.76      160.92
+30    IC42D      4     2     2      160.92      178.08
+30    IC42E      4     2     2      178.08      195.25
+30    IC42F      4     2     2      195.25      212.41
+30    IC42G      4     2     2      212.41      229.58
+30    IC42H      4     2     2      229.58      246.74
+30    IC42I      4     2     2      246.74      266.80
+30    IC42J      4     2     2      266.80      371.90
+30    IC42K      4     2     2      371.90      484.29
+
+30    IC43A      4     3     3        0.0        35.76
+30    IC43B      4     3     3       35.76      160.92
+30    IC43D      4     3     3      160.92      178.08
+30    IC43E      4     3     3      178.08      195.25
+30    IC43F      4     3     3      195.25      212.41
+30    IC43G      4     3     3      212.41      229.58
+30    IC43H      4     3     3      229.58      246.74
+30    IC43I      4     3     3      246.74      266.80
+30    IC43J      4     3     3      266.80      371.90
+30    IC43K      4     3     3      371.90      484.29
+     
+30    CP44A      4     4     4        0.0        35.76
+30    CP44B      4     4     4       35.76      142.81
+30    CP44C      4     4     4      142.81      229.58
+30    CP44G      4     4     4      229.58      246.74
+30    CP44H      4     4     4      246.74      333.50
+30    CP44I      4     4     4      333.50      371.90
+30    CP44K      4     4     4      371.90      484.29
+
+30    IC45A      4     5     5        0.0        35.76
+30    IC45B      4     5     5       35.76      160.92
+30    IC45D      4     5     5      160.92      178.08
+30    IC45E      4     5     5      178.08      195.25
+30    IC45F      4     5     5      195.25      212.41
+30    IC45G      4     5     5      212.41      229.58
+30    IC45H      4     5     5      229.58      246.74
+30    IC45I      4     5     5      246.74      266.80
+30    IC45J      4     5     5      266.80      371.90
+30    IC45K      4     5     5      371.90      484.29
+
+    * Ring 5 = Inner core 
+    
+15    LPPC  IC51A IC52A IC53A IC54A IC55A IC56A IC58A IC59A
+15    LRPC  IC51B IC52B IC53B IC54B IC55B IC56B IC58B IC59B
+15    ICPC  IC51D IC52D IC53D IC54D IC55D IC56D IC58D IC59D
+15    ICPC  IC51E IC52E IC53E IC54E IC55E IC56E IC58E IC59E
+15    ICPC  IC51F IC52F IC53F IC54F IC55F IC56F IC58F IC59F
+15    ICPC  IC51G IC52G IC53G IC54G IC55G IC56G IC58G IC59G
+15    ICPC  IC51H IC52H IC53H IC54H IC55H IC56H IC58H IC59H
+15    UPPC1 IC51I IC52I IC53I IC54I IC55I IC56I IC58I IC59I
+15    UPPC  IC51J IC52J IC53J IC54J IC55J IC56J IC58J IC59J
+15    USPC  IC51K IC52K IC53K IC54K IC55K IC56K IC58K IC59K
+
+30    IC58A      5    23    23        0.0        35.76
+30    IC58B      5    23    23       35.76      160.92
+30    IC58D      5    23    23      160.92      178.08
+30    IC58E      5    23    23      178.08      195.25
+30    IC58F      5    23    23      195.25      212.41
+30    IC58G      5    23    23      212.41      229.58
+30    IC58H      5    23    23      229.58      246.74
+30    IC58I      5    23    23      246.74      266.80
+30    IC58J      5    23    23      266.80      371.90
+30    IC58K      5    23    23      371.90      484.29
+      
+30    IC59A      5    24    24        0.0        35.76
+30    IC59B      5    24    24       35.76      160.92
+30    IC59D      5    24    24      160.92      178.08
+30    IC59E      5    24    24      178.08      195.25
+30    IC59F      5    24    24      195.25      212.41
+30    IC59G      5    24    24      212.41      229.58
+30    IC59H      5    24    24      229.58      246.74
+30    IC59I      5    24    24      246.74      266.80
+30    IC59J      5    24    24      266.80      371.90
+30    IC59K      5    24    24      371.90      484.29
+      
+30    IC51A      5     1     1        0.0        35.76
+30    IC51B      5     1     1       35.76      160.92
+30    IC51D      5     1     1      160.92      178.08
+30    IC51E      5     1     1      178.08      195.25
+30    IC51F      5     1     1      195.25      212.41
+30    IC51G      5     1     1      212.41      229.58
+30    IC51H      5     1     1      229.58      246.74
+30    IC51I      5     1     1      246.74      266.80
+30    IC51J      5     1     1      266.80      371.90
+30    IC51K      5     1     1      371.90      484.29
+      
+30    IC52A      5     2     2        0.0        35.76
+30    IC52B      5     2     2       35.76      160.92
+30    IC52D      5     2     2      160.92      178.08
+30    IC52E      5     2     2      178.08      195.25
+30    IC52F      5     2     2      195.25      212.41
+30    IC52G      5     2     2      212.41      229.58
+30    IC52H      5     2     2      229.58      246.74
+30    IC52I      5     2     2      246.74      266.80
+30    IC52J      5     2     2      266.80      371.90
+30    IC52K      5     2     2      371.90      484.29
+      
+30    IC53A      5     3     3        0.0        35.76
+30    IC53B      5     3     3       35.76      160.92
+30    IC53D      5     3     3      160.92      178.08
+30    IC53E      5     3     3      178.08      195.25
+30    IC53F      5     3     3      195.25      212.41
+30    IC53G      5     3     3      212.41      229.58
+30    IC53H      5     3     3      229.58      246.74
+30    IC53I      5     3     3      246.74      266.80
+30    IC53J      5     3     3      266.80      371.90
+30    IC53K      5     3     3      371.90      484.29
+      
+30    IC54A      5     4     4        0.0        35.76
+30    IC54B      5     4     4       35.76      160.92
+30    IC54D      5     4     4      160.92      178.08
+30    IC54E      5     4     4      178.08      195.25
+30    IC54F      5     4     4      195.25      212.41
+30    IC54G      5     4     4      212.41      229.58
+30    IC54H      5     4     4      229.58      246.74
+30    IC54I      5     4     4      246.74      266.80
+30    IC54J      5     4     4      266.80      371.90
+30    IC54K      5     4     4      371.90      484.29
+      
+30    IC55A      5     5     5        0.0        35.76
+30    IC55B      5     5     5       35.76      160.92
+30    IC55D      5     5     5      160.92      178.08
+30    IC55E      5     5     5      178.08      195.25
+30    IC55F      5     5     5      195.25      212.41
+30    IC55G      5     5     5      212.41      229.58
+30    IC55H      5     5     5      229.58      246.74
+30    IC55I      5     5     5      246.74      266.80
+30    IC55J      5     5     5      266.80      371.90
+30    IC55K      5     5     5      371.90      484.29
+      
+30    IC56A      5     6     6        0.0        35.76
+30    IC56B      5     6     6       35.76      160.92
+30    IC56D      5     6     6      160.92      178.08
+30    IC56E      5     6     6      178.08      195.25
+30    IC56F      5     6     6      195.25      212.41
+30    IC56G      5     6     6      212.41      229.58
+30    IC56H      5     6     6      229.58      246.74
+30    IC56I      5     6     6      246.74      266.80
+30    IC56J      5     6     6      266.80      371.90
+30    IC56K      5     6     6      371.90      484.29
+      
+    * Ring 6 = INNER CORE / OUTER CORE   
+    
+15    LPPC  IC62A IC65A IC67A IC60A
+15    LRPC  IC62B IC65B IC67B IC60B
+15    ICPC  IC62D IC65D IC67D IC60D
+15    ICPC  IC62E IC65E IC67E IC60E
+15    ICPC  IC62F IC65F IC67F IC60F
+15    ICPC  IC62G IC65G IC67G IC60G
+15    ICPC  IC62H IC65H IC67H IC60H
+15    UPPC1 IC62I IC65I IC67I IC60I
+15    UPPC  IC62J IC65J IC67J IC60J
+15    USPC  IC62K IC65K IC67K IC60K
+
+15    LPPC  IC63A IC64A IC68A IC69A
+15    LRPC  IC63B IC64B IC68B IC69B
+15    ICPC  IC63D IC64D IC68D IC69D
+15    ICPC  IC63E IC64E IC68E IC69E
+15    ICPC  IC63F IC64F IC68F IC69F
+15    ICPC  IC63G IC64G IC68G IC69G
+15    ICPC  IC63H IC64H IC68H IC69H
+15    UPPC1 IC63I IC64I IC68I IC69I
+15    UPPC  IC63J IC64J IC68J IC69J
+15    USPC  IC63K IC64K IC68K IC69K
+ 
+15    LPPC  OC61A OC66A 
+15    LRPC  OC61B OC66B 
+15    OCPC  OC61D OC66D 
+15    OCPC  OC61E OC66E 
+15    OCPC  OC61F OC66F 
+15    OCPC  OC61G OC66G 
+15    OCPC  OC61H OC66H 
+15    UPPC1 OC61I OC66I 
+15    UPPC  OC61J OC66J 
+15    USPC  OC61K OC66K 
+ 
+30    IC69A      6    29    29        0.0        35.76
+30    IC69B      6    29    29       35.76      160.92
+30    IC69D      6    29    29      160.92      178.08
+30    IC69E      6    29    29      178.08      195.25
+30    IC69F      6    29    29      195.25      212.41
+30    IC69G      6    29    29      212.41      229.58
+30    IC69H      6    29    29      229.58      246.74
+30    IC69I      6    29    29      246.74      266.80
+30    IC69J      6    29    29      266.80      371.90
+30    IC69K      6    29    29      371.90      484.29
+      
+30    IC60A      6    30    30        0.0        35.76
+30    IC60B      6    30    30       35.76      160.92
+30    IC60D      6    30    30      160.92      178.08
+30    IC60E      6    30    30      178.08      195.25
+30    IC60F      6    30    30      195.25      212.41
+30    IC60G      6    30    30      212.41      229.58
+30    IC60H      6    30    30      229.58      246.74
+30    IC60I      6    30    30      246.74      266.80
+30    IC60J      6    30    30      266.80      371.90
+30    IC60K      6    30    30      371.90      484.29
+      
+30    OC61A      6     1     1        0.0        35.76
+30    OC61B      6     1     1       35.76      160.92
+30    OC61D      6     1     1      160.92      178.08
+30    OC61E      6     1     1      178.08      195.25
+30    OC61F      6     1     1      195.25      212.41
+30    OC61G      6     1     1      212.41      229.58
+30    OC61H      6     1     1      229.58      246.74
+30    OC61I      6     1     1      246.74      266.80
+30    OC61J      6     1     1      266.80      371.90
+30    OC61K      6     1     1      371.90      484.29
+      
+30    IC62A      6     2     2        0.0        35.76
+30    IC62B      6     2     2       35.76      160.92
+30    IC62D      6     2     2      160.92      178.08
+30    IC62E      6     2     2      178.08      195.25
+30    IC62F      6     2     2      195.25      212.41
+30    IC62G      6     2     2      212.41      229.58
+30    IC62H      6     2     2      229.58      246.74
+30    IC62I      6     2     2      246.74      266.80
+30    IC62J      6     2     2      266.80      371.90
+30    IC62K      6     2     2      371.90      484.29
+      
+30    IC63A      6     3     3        0.0        35.76
+30    IC63B      6     3     3       35.76      160.92
+30    IC63D      6     3     3      160.92      178.08
+30    IC63E      6     3     3      178.08      195.25
+30    IC63F      6     3     3      195.25      212.41
+30    IC63G      6     3     3      212.41      229.58
+30    IC63H      6     3     3      229.58      246.74
+30    IC63I      6     3     3      246.74      266.80
+30    IC63J      6     3     3      266.80      371.90
+30    IC63K      6     3     3      371.90      484.29
+      
+30    IC64A      6     4     4        0.0        35.76
+30    IC64B      6     4     4       35.76      160.92
+30    IC64D      6     4     4      160.92      178.08
+30    IC64E      6     4     4      178.08      195.25
+30    IC64F      6     4     4      195.25      212.41
+30    IC64G      6     4     4      212.41      229.58
+30    IC64H      6     4     4      229.58      246.74
+30    IC64I      6     4     4      246.74      266.80
+30    IC64J      6     4     4      266.80      371.90
+30    IC64K      6     4     4      371.90      484.29
+      
+30    IC65A      6     5     5        0.0        35.76
+30    IC65B      6     5     5       35.76      160.92
+30    IC65D      6     5     5      160.92      178.08
+30    IC65E      6     5     5      178.08      195.25
+30    IC65F      6     5     5      195.25      212.41
+30    IC65G      6     5     5      212.41      229.58
+30    IC65H      6     5     5      229.58      246.74
+30    IC65I      6     5     5      246.74      266.80
+30    IC65J      6     5     5      266.80      371.90
+30    IC65K      6     5     5      371.90      484.29
+      
+30    OC66A      6     6     6        0.0        35.76
+30    OC66B      6     6     6       35.76      160.92
+30    OC66D      6     6     6      160.92      178.08
+30    OC66E      6     6     6      178.08      195.25
+30    OC66F      6     6     6      195.25      212.41
+30    OC66G      6     6     6      212.41      229.58
+30    OC66H      6     6     6      229.58      246.74
+30    OC66I      6     6     6      246.74      266.80
+30    OC66J      6     6     6      266.80      371.90
+30    OC66K      6     6     6      371.90      484.29
+      
+30    IC67A      6     7     7        0.0        35.76
+30    IC67B      6     7     7       35.76      160.92
+30    IC67D      6     7     7      160.92      178.08
+30    IC67E      6     7     7      178.08      195.25
+30    IC67F      6     7     7      195.25      212.41
+30    IC67G      6     7     7      212.41      229.58
+30    IC67H      6     7     7      229.58      246.74
+30    IC67I      6     7     7      246.74      266.80
+30    IC67J      6     7     7      266.80      371.90
+30    IC67K      6     7     7      371.90      484.29
+      
+30    IC68A      6     8     8        0.0        35.76
+30    IC68B      6     8     8       35.76      160.92
+30    IC68D      6     8     8      160.92      178.08
+30    IC68E      6     8     8      178.08      195.25
+30    IC68F      6     8     8      195.25      212.41
+30    IC68G      6     8     8      212.41      229.58
+30    IC68H      6     8     8      229.58      246.74
+30    IC68I      6     8     8      246.74      266.80
+30    IC68J      6     8     8      266.80      371.90
+30    IC68K      6     8     8      371.90      484.29
+      
+    * Ring 7 = OUTER CORE / CR (ENriched Boron)
+    
+15    LPPC  CP71A CP74A CP77A CP70A
+15    LRPC  CP71B CP74B CP77B CP70B
+15    CRCPC CP71C CP74C CP77C CP70C
+15    CRFPC CP71G CP74G CP77G CP70G
+15    CRBPE CP71H CP74H CP77H CP70H
+15    CRPPC CP71I CP74I CP77I CP70I
+15    USPC  CP71K CP74K CP77K CP70K
+
+15    LPPC  OC72A OC73A OC75A OC76A OC78A OC79A OC7AA OC7BA 
+15    LRPC  OC72B OC73B OC75B OC76B OC78B OC79B OC7AB OC7BB 
+15    OCPC  OC72D OC73D OC75D OC76D OC78D OC79D OC7AD OC7BD 
+15    OCPC  OC72E OC73E OC75E OC76E OC78E OC79E OC7AE OC7BE 
+15    OCPC  OC72F OC73F OC75F OC76F OC78F OC79F OC7AF OC7BF 
+15    OCPC  OC72G OC73G OC75G OC76G OC78G OC79G OC7AG OC7BG 
+15    OCPC  OC72H OC73H OC75H OC76H OC78H OC79H OC7AH OC7BH 
+15    UPPC1 OC72I OC73I OC75I OC76I OC78I OC79I OC7AI OC7BI 
+15    UPPC  OC72J OC73J OC75J OC76J OC78J OC79J OC7AJ OC7BJ 
+15    USPC  OC72K OC73K OC75K OC76K OC78K OC79K OC7AK OC7BK 
+ 
+30    CP70A      7    34    34        0.0        35.76
+30    CP70B      7    34    34       35.76      142.81
+30    CP70C      7    34    34      142.81      229.58
+30    CP70G      7    34    34      229.58      246.74
+30    CP70H      7    34    34      246.74      333.50
+30    CP70I      7    34    34      333.50      371.90
+30    CP70K      7    34    34      371.90      484.29
+
+30    OC7AA      7    35    35        0.0        35.76
+30    OC7AB      7    35    35       35.76      160.92
+30    OC7AD      7    35    35      160.92      178.08
+30    OC7AE      7    35    35      178.08      195.25
+30    OC7AF      7    35    35      195.25      212.41
+30    OC7AG      7    35    35      212.41      229.58
+30    OC7AH      7    35    35      229.58      246.74
+30    OC7AI      7    35    35      246.74      266.80
+30    OC7AJ      7    35    35      266.80      371.90
+30    OC7AK      7    35    35      371.90      484.29         
+
+30    OC7BA      7    36    36        0.0        35.76
+30    OC7BB      7    36    36       35.76      160.92
+30    OC7BD      7    36    36      160.92      178.08
+30    OC7BE      7    36    36      178.08      195.25
+30    OC7BF      7    36    36      195.25      212.41
+30    OC7BG      7    36    36      212.41      229.58
+30    OC7BH      7    36    36      229.58      246.74
+30    OC7BI      7    36    36      246.74      266.80
+30    OC7BJ      7    36    36      266.80      371.90
+30    OC7BK      7    36    36      371.90      484.29
+           
+30    CP71A      7     1     1        0.0        35.76
+30    CP71B      7     1     1       35.76      142.81
+30    CP71C      7     1     1      142.81      229.58
+30    CP71G      7     1     1      229.58      246.74
+30    CP71H      7     1     1      246.74      333.50
+30    CP71I      7     1     1      333.50      371.90
+30    CP71K      7     1     1      371.90      484.29
+
+30    OC72A      7     2     2        0.0        35.76
+30    OC72B      7     2     2       35.76      160.92
+30    OC72D      7     2     2      160.92      178.08
+30    OC72E      7     2     2      178.08      195.25
+30    OC72F      7     2     2      195.25      212.41
+30    OC72G      7     2     2      212.41      229.58
+30    OC72H      7     2     2      229.58      246.74
+30    OC72I      7     2     2      246.74      266.80
+30    OC72J      7     2     2      266.80      371.90
+30    OC72K      7     2     2      371.90      484.29         
+
+30    OC73A      7     3     3        0.0        35.76
+30    OC73B      7     3     3       35.76      160.92
+30    OC73D      7     3     3      160.92      178.08
+30    OC73E      7     3     3      178.08      195.25
+30    OC73F      7     3     3      195.25      212.41
+30    OC73G      7     3     3      212.41      229.58
+30    OC73H      7     3     3      229.58      246.74
+30    OC73I      7     3     3      246.74      266.80
+30    OC73J      7     3     3      266.80      371.90
+30    OC73K      7     3     3      371.90      484.29
+           
+30    CP74A      7     4     4        0.0        35.76
+30    CP74B      7     4     4       35.76      142.81
+30    CP74C      7     4     4      142.81      229.58
+30    CP74G      7     4     4      229.58      246.74
+30    CP74H      7     4     4      246.74      333.50
+30    CP74I      7     4     4      333.50      371.90
+30    CP74K      7     4     4      371.90      484.29
+
+30    OC75A      7     5     5        0.0        35.76
+30    OC75B      7     5     5       35.76      160.92
+30    OC75D      7     5     5      160.92      178.08
+30    OC75E      7     5     5      178.08      195.25
+30    OC75F      7     5     5      195.25      212.41
+30    OC75G      7     5     5      212.41      229.58
+30    OC75H      7     5     5      229.58      246.74
+30    OC75I      7     5     5      246.74      266.80
+30    OC75J      7     5     5      266.80      371.90
+30    OC75K      7     5     5      371.90      484.29
+           
+30    OC76A      7     6     6        0.0        35.76
+30    OC76B      7     6     6       35.76      160.92
+30    OC76D      7     6     6      160.92      178.08
+30    OC76E      7     6     6      178.08      195.25
+30    OC76F      7     6     6      195.25      212.41
+30    OC76G      7     6     6      212.41      229.58
+30    OC76H      7     6     6      229.58      246.74
+30    OC76I      7     6     6      246.74      266.80
+30    OC76J      7     6     6      266.80      371.90
+30    OC76K      7     6     6      371.90      484.29
+           
+30    CP77A      7     7     7        0.0        35.76
+30    CP77B      7     7     7       35.76      142.81
+30    CP77C      7     7     7      142.81      229.58
+30    CP77G      7     7     7      229.58      246.74
+30    CP77H      7     7     7      246.74      333.50
+30    CP77I      7     7     7      333.50      371.90
+30    CP77K      7     7     7      371.90      484.29
+
+30    OC78A      7     8     8        0.0        35.76
+30    OC78B      7     8     8       35.76      160.92
+30    OC78D      7     8     8      160.92      178.08
+30    OC78E      7     8     8      178.08      195.25
+30    OC78F      7     8     8      195.25      212.41
+30    OC78G      7     8     8      212.41      229.58
+30    OC78H      7     8     8      229.58      246.74
+30    OC78I      7     8     8      246.74      266.80
+30    OC78J      7     8     8      266.80      371.90
+30    OC78K      7     8     8      371.90      484.29
+           
+30    OC79A      7     9     9        0.0        35.76
+30    OC79B      7     9     9       35.76      160.92
+30    OC79D      7     9     9      160.92      178.08
+30    OC79E      7     9     9      178.08      195.25
+30    OC79F      7     9     9      195.25      212.41
+30    OC79G      7     9     9      212.41      229.58
+30    OC79H      7     9     9      229.58      246.74
+30    OC79I      7     9     9      246.74      266.80
+30    OC79J      7     9     9      266.80      371.90
+30    OC79K      7     9     9      371.90      484.29
+           
+    * Ring 8 = OUTER 
+    
+15    LPPC  OC81A OC82A OC83A OC84A OC85A OC86A OC87A OC88A
+15    LRPC  OC81B OC82B OC83B OC84B OC85B OC86B OC87B OC88B
+15    OCPC  OC81D OC82D OC83D OC84D OC85D OC86D OC87D OC88D
+15    OCPC  OC81E OC82E OC83E OC84E OC85E OC86E OC87E OC88E
+15    OCPC  OC81F OC82F OC83F OC84F OC85F OC86F OC87F OC88F
+15    OCPC  OC81G OC82G OC83G OC84G OC85G OC86G OC87G OC88G
+15    OCPC  OC81H OC82H OC83H OC84H OC85H OC86H OC87H OC88H
+15    UPPC1 OC81I OC82I OC83I OC84I OC85I OC86I OC87I OC88I
+15    UPPC  OC81J OC82J OC83J OC84J OC85J OC86J OC87J OC88J
+15    USPC  OC81K OC82K OC83K OC84K OC85K OC86K OC87K OC88K
+
+15    LPPC  OC89A OC80A OC8AA OC8BA OC8CA OC8DA
+15    LRPC  OC89B OC80B OC8AB OC8BB OC8CB OC8DB
+15    OCPC  OC89D OC80D OC8AD OC8BD OC8CD OC8DD
+15    OCPC  OC89E OC80E OC8AE OC8BE OC8CE OC8DE
+15    OCPC  OC89F OC80F OC8AF OC8BF OC8CF OC8DF
+15    OCPC  OC89G OC80G OC8AG OC8BG OC8CG OC8DG
+15    OCPC  OC89H OC80H OC8AH OC8BH OC8CH OC8DH
+15    UPPC1 OC89I OC80I OC8AI OC8BI OC8CI OC8DI
+15    UPPC  OC89J OC80J OC8AJ OC8BJ OC8CJ OC8DJ
+15    USPC  OC89K OC80K OC8AK OC8BK OC8CK OC8DK
+
+30    OC8BA      8    40    40        0.0        35.76
+30    OC8BB      8    40    40       35.76      160.92
+30    OC8BD      8    40    40      160.92      178.08
+30    OC8BE      8    40    40      178.08      195.25
+30    OC8BF      8    40    40      195.25      212.41
+30    OC8BG      8    40    40      212.41      229.58
+30    OC8BH      8    40    40      229.58      246.74
+30    OC8BI      8    40    40      246.74      266.80
+30    OC8BJ      8    40    40      266.80      371.90
+30    OC8BK      8    40    40      371.90      484.29
+    
+30    OC8CA      8    41    41        0.0        35.76
+30    OC8CB      8    41    41       35.76      160.92
+30    OC8CD      8    41    41      160.92      178.08
+30    OC8CE      8    41    41      178.08      195.25
+30    OC8CF      8    41    41      195.25      212.41
+30    OC8CG      8    41    41      212.41      229.58
+30    OC8CH      8    41    41      229.58      246.74
+30    OC8CI      8    41    41      246.74      266.80
+30    OC8CJ      8    41    41      266.80      371.90
+30    OC8CK      8    41    41      371.90      484.29
+
+30    OC8DA      8    42    42        0.0        35.76
+30    OC8DB      8    42    42       35.76      160.92
+30    OC8DD      8    42    42      160.92      178.08
+30    OC8DE      8    42    42      178.08      195.25
+30    OC8DF      8    42    42      195.25      212.41
+30    OC8DG      8    42    42      212.41      229.58
+30    OC8DH      8    42    42      229.58      246.74
+30    OC8DI      8    42    42      246.74      266.80
+30    OC8DJ      8    42    42      266.80      371.90
+30    OC8DK      8    42    42      371.90      484.29
+    
+30    OC81A      8     1     1        0.0        35.76
+30    OC81B      8     1     1       35.76      160.92
+30    OC81D      8     1     1      160.92      178.08
+30    OC81E      8     1     1      178.08      195.25
+30    OC81F      8     1     1      195.25      212.41
+30    OC81G      8     1     1      212.41      229.58
+30    OC81H      8     1     1      229.58      246.74
+30    OC81I      8     1     1      246.74      266.80
+30    OC81J      8     1     1      266.80      371.90
+30    OC81K      8     1     1      371.90      484.29
+    
+30    OC82A      8     2     2        0.0        35.76
+30    OC82B      8     2     2       35.76      160.92
+30    OC82D      8     2     2      160.92      178.08
+30    OC82E      8     2     2      178.08      195.25
+30    OC82F      8     2     2      195.25      212.41
+30    OC82G      8     2     2      212.41      229.58
+30    OC82H      8     2     2      229.58      246.74
+30    OC82I      8     2     2      246.74      266.80
+30    OC82J      8     2     2      266.80      371.90
+30    OC82K      8     2     2      371.90      484.29
+    
+30    OC83A      8     3     3        0.0        35.76
+30    OC83B      8     3     3       35.76      160.92
+30    OC83D      8     3     3      160.92      178.08
+30    OC83E      8     3     3      178.08      195.25
+30    OC83F      8     3     3      195.25      212.41
+30    OC83G      8     3     3      212.41      229.58
+30    OC83H      8     3     3      229.58      246.74
+30    OC83I      8     3     3      246.74      266.80
+30    OC83J      8     3     3      266.80      371.90
+30    OC83K      8     3     3      371.90      484.29
+    
+30    OC84A      8     4     4        0.0        35.76
+30    OC84B      8     4     4       35.76      160.92
+30    OC84D      8     4     4      160.92      178.08
+30    OC84E      8     4     4      178.08      195.25
+30    OC84F      8     4     4      195.25      212.41
+30    OC84G      8     4     4      212.41      229.58
+30    OC84H      8     4     4      229.58      246.74
+30    OC84I      8     4     4      246.74      266.80
+30    OC84J      8     4     4      266.80      371.90
+30    OC84K      8     4     4      371.90      484.29
+    
+30    OC85A      8     5     5        0.0        35.76
+30    OC85B      8     5     5       35.76      160.92
+30    OC85D      8     5     5      160.92      178.08
+30    OC85E      8     5     5      178.08      195.25
+30    OC85F      8     5     5      195.25      212.41
+30    OC85G      8     5     5      212.41      229.58
+30    OC85H      8     5     5      229.58      246.74
+30    OC85I      8     5     5      246.74      266.80
+30    OC85J      8     5     5      266.80      371.90
+30    OC85K      8     5     5      371.90      484.29
+    
+30    OC86A      8     6     6        0.0        35.76
+30    OC86B      8     6     6       35.76      160.92
+30    OC86D      8     6     6      160.92      178.08
+30    OC86E      8     6     6      178.08      195.25
+30    OC86F      8     6     6      195.25      212.41
+30    OC86G      8     6     6      212.41      229.58
+30    OC86H      8     6     6      229.58      246.74
+30    OC86I      8     6     6      246.74      266.80
+30    OC86J      8     6     6      266.80      371.90
+30    OC86K      8     6     6      371.90      484.29
+    
+30    OC87A      8     7     7        0.0        35.76
+30    OC87B      8     7     7       35.76      160.92
+30    OC87D      8     7     7      160.92      178.08
+30    OC87E      8     7     7      178.08      195.25
+30    OC87F      8     7     7      195.25      212.41
+30    OC87G      8     7     7      212.41      229.58
+30    OC87H      8     7     7      229.58      246.74
+30    OC87I      8     7     7      246.74      266.80
+30    OC87J      8     7     7      266.80      371.90
+30    OC87K      8     7     7      371.90      484.29
+    
+30    OC88A      8     8     8        0.0        35.76
+30    OC88B      8     8     8       35.76      160.92
+30    OC88D      8     8     8      160.92      178.08
+30    OC88E      8     8     8      178.08      195.25
+30    OC88F      8     8     8      195.25      212.41
+30    OC88G      8     8     8      212.41      229.58
+30    OC88H      8     8     8      229.58      246.74
+30    OC88I      8     8     8      246.74      266.80
+30    OC88J      8     8     8      266.80      371.90
+30    OC88K      8     8     8      371.90      484.29
+    
+30    OC89A      8     9     9        0.0        35.76
+30    OC89B      8     9     9       35.76      160.92
+30    OC89D      8     9     9      160.92      178.08
+30    OC89E      8     9     9      178.08      195.25
+30    OC89F      8     9     9      195.25      212.41
+30    OC89G      8     9     9      212.41      229.58
+30    OC89H      8     9     9      229.58      246.74
+30    OC89I      8     9     9      246.74      266.80
+30    OC89J      8     9     9      266.80      371.90
+30    OC89K      8     9     9      371.90      484.29
+    
+30    OC80A      8    10    10        0.0        35.76
+30    OC80B      8    10    10       35.76      160.92
+30    OC80D      8    10    10      160.92      178.08
+30    OC80E      8    10    10      178.08      195.25
+30    OC80F      8    10    10      195.25      212.41
+30    OC80G      8    10    10      212.41      229.58
+30    OC80H      8    10    10      229.58      246.74
+30    OC80I      8    10    10      246.74      266.80
+30    OC80J      8    10    10      266.80      371.90
+30    OC80K      8    10    10      371.90      484.29
+    
+30    OC8AA      8    11    11        0.0        35.76
+30    OC8AB      8    11    11       35.76      160.92
+30    OC8AD      8    11    11      160.92      178.08
+30    OC8AE      8    11    11      178.08      195.25
+30    OC8AF      8    11    11      195.25      212.41
+30    OC8AG      8    11    11      212.41      229.58
+30    OC8AH      8    11    11      229.58      246.74
+30    OC8AI      8    11    11      246.74      266.80
+30    OC8AJ      8    11    11      266.80      371.90
+30    OC8AK      8    11    11      371.90      484.29
+    
+    * Ring 9 = OUTER CORE AND REFLECTOR
+    
+15    REFPC RF9_A  
+15    REFPC RF9_G 
+15    REFPC RF9_K 
+   
+15    LPPC  OC93A OC94A OC95A OC96A OC97A 
+15    LRPC  OC93B OC94B OC95B OC96B OC97B 
+15    OCPC  OC93D OC94D OC95D OC96D OC97D 
+15    OCPC  OC93E OC94E OC95E OC96E OC97E 
+15    OCPC  OC93F OC94F OC95F OC96F OC97F 
+15    OCPC  OC93G OC94G OC95G OC96G OC97G 
+15    OCPC  OC93H OC94H OC95H OC96H OC97H 
+15    UPPC1 OC93I OC94I OC95I OC96I OC97I 
+15    UPPC  OC93J OC94J OC95J OC96J OC97J 
+15    USPC  OC93K OC94K OC95K OC96K OC97K 
+
+15    LPPC  OC9AA OC9BA OC9CA OC9DA OC9EA 
+15    LRPC  OC9AB OC9BB OC9CB OC9DB OC9EB 
+15    OCPC  OC9AD OC9BD OC9CD OC9DD OC9ED 
+15    OCPC  OC9AE OC9BE OC9CE OC9DE OC9EE 
+15    OCPC  OC9AF OC9BF OC9CF OC9DF OC9EF 
+15    OCPC  OC9AG OC9BG OC9CG OC9DG OC9EG 
+15    OCPC  OC9AH OC9BH OC9CH OC9DH OC9EH 
+15    UPPC1 OC9AI OC9BI OC9CI OC9DI OC9EI 
+15    UPPC  OC9AJ OC9BJ OC9CJ OC9DJ OC9EJ 
+15    USPC  OC9AK OC9BK OC9CK OC9DK OC9EK 
+
+30    OC9CA      9    45    45        0.0        35.76
+30    OC9CB      9    45    45       35.76      160.92
+30    OC9CD      9    45    45      160.92      178.08
+30    OC9CE      9    45    45      178.08      195.25
+30    OC9CF      9    45    45      195.25      212.41
+30    OC9CG      9    45    45      212.41      229.58
+30    OC9CH      9    45    45      229.58      246.74
+30    OC9CI      9    45    45      246.74      266.80
+30    OC9CJ      9    45    45      266.80      371.90
+30    OC9CK      9    45    45      371.90      484.29
+    
+30    OC9DA      9    46    46        0.0        35.76
+30    OC9DB      9    46    46       35.76      160.92
+30    OC9DD      9    46    46      160.92      178.08
+30    OC9DE      9    46    46      178.08      195.25
+30    OC9DF      9    46    46      195.25      212.41
+30    OC9DG      9    46    46      212.41      229.58
+30    OC9DH      9    46    46      229.58      246.74
+30    OC9DI      9    46    46      246.74      266.80
+30    OC9DJ      9    46    46      266.80      371.90
+30    OC9DK      9    46    46      371.90      484.29
+    
+30    OC9EA      9    47    47        0.0        35.76
+30    OC9EB      9    47    47       35.76      160.92
+30    OC9ED      9    47    47      160.92      178.08
+30    OC9EE      9    47    47      178.08      195.25
+30    OC9EF      9    47    47      195.25      212.41
+30    OC9EG      9    47    47      212.41      229.58
+30    OC9EH      9    47    47      229.58      246.74
+30    OC9EI      9    47    47      246.74      266.80
+30    OC9EJ      9    47    47      266.80      371.90
+30    OC9EK      9    47    47      371.90      484.29
+     
+30    RF9_A      9    48    48        0.0        35.76
+30    RF9_G      9    48    48       35.76      371.90
+30    RF9_K      9    48    48      371.90      484.29
+    
+30    RF9_A      9     1     1        0.0        35.76
+30    RF9_G      9     1     1       35.76      371.90
+30    RF9_K      9     1     1      371.90      484.29
+    
+30    RF9_A      9     2     2        0.0        35.76
+30    RF9_G      9     2     2       35.76      371.90
+30    RF9_K      9     2     2      371.90      484.29
+    
+30    OC93A      9     3     3        0.0        35.76
+30    OC93B      9     3     3       35.76      160.92
+30    OC93D      9     3     3      160.92      178.08
+30    OC93E      9     3     3      178.08      195.25
+30    OC93F      9     3     3      195.25      212.41
+30    OC93G      9     3     3      212.41      229.58
+30    OC93H      9     3     3      229.58      246.74
+30    OC93I      9     3     3      246.74      266.80
+30    OC93J      9     3     3      266.80      371.90
+30    OC93K      9     3     3      371.90      484.29
+    
+30    OC94A      9     4     4        0.0        35.76
+30    OC94B      9     4     4       35.76      160.92
+30    OC94D      9     4     4      160.92      178.08
+30    OC94E      9     4     4      178.08      195.25
+30    OC94F      9     4     4      195.25      212.41
+30    OC94G      9     4     4      212.41      229.58
+30    OC94H      9     4     4      229.58      246.74
+30    OC94I      9     4     4      246.74      266.80
+30    OC94J      9     4     4      266.80      371.90
+30    OC94K      9     4     4      371.90      484.29
+    
+30    OC95A      9     5     5        0.0        35.76
+30    OC95B      9     5     5       35.76      160.92
+30    OC95D      9     5     5      160.92      178.08
+30    OC95E      9     5     5      178.08      195.25
+30    OC95F      9     5     5      195.25      212.41
+30    OC95G      9     5     5      212.41      229.58
+30    OC95H      9     5     5      229.58      246.74
+30    OC95I      9     5     5      246.74      266.80
+30    OC95J      9     5     5      266.80      371.90
+30    OC95K      9     5     5      371.90      484.29
+    
+30    OC96A      9     6     6        0.0        35.76
+30    OC96B      9     6     6       35.76      160.92
+30    OC96D      9     6     6      160.92      178.08
+30    OC96E      9     6     6      178.08      195.25
+30    OC96F      9     6     6      195.25      212.41
+30    OC96G      9     6     6      212.41      229.58
+30    OC96H      9     6     6      229.58      246.74
+30    OC96I      9     6     6      246.74      266.80
+30    OC96J      9     6     6      266.80      371.90
+30    OC96K      9     6     6      371.90      484.29
+    
+30    OC97A      9     7     7        0.0        35.76
+30    OC97B      9     7     7       35.76      160.92
+30    OC97D      9     7     7      160.92      178.08
+30    OC97E      9     7     7      178.08      195.25
+30    OC97F      9     7     7      195.25      212.41
+30    OC97G      9     7     7      212.41      229.58
+30    OC97H      9     7     7      229.58      246.74
+30    OC97I      9     7     7      246.74      266.80
+30    OC97J      9     7     7      266.80      371.90
+30    OC97K      9     7     7      371.90      484.29
+    
+30    RF9_A      9     8     8        0.0        35.76
+30    RF9_G      9     8     8       35.76      371.90
+30    RF9_K      9     8     8      371.90      484.29
+    
+30    RF9_A      9     9     9        0.0        35.76
+30    RF9_G      9     9     9       35.76      371.90
+30    RF9_K      9     9     9      371.90      484.29
+    
+30    RF9_A      9    10    10        0.0        35.76
+30    RF9_G      9    10    10       35.76      371.90
+30    RF9_K      9    10    10      371.90      484.29
+    
+30    OC9AA      9    11    11        0.0        35.76
+30    OC9AB      9    11    11       35.76      160.92
+30    OC9AD      9    11    11      160.92      178.08
+30    OC9AE      9    11    11      178.08      195.25
+30    OC9AF      9    11    11      195.25      212.41
+30    OC9AG      9    11    11      212.41      229.58
+30    OC9AH      9    11    11      229.58      246.74
+30    OC9AI      9    11    11      246.74      266.80
+30    OC9AJ      9    11    11      266.80      371.90
+30    OC9AK      9    11    11      371.90      484.29
+    
+30    OC9BA      9    12    12        0.0        35.76
+30    OC9BB      9    12    12       35.76      160.92
+30    OC9BD      9    12    12      160.92      178.08
+30    OC9BE      9    12    12      178.08      195.25
+30    OC9BF      9    12    12      195.25      212.41
+30    OC9BG      9    12    12      212.41      229.58
+30    OC9BH      9    12    12      229.58      246.74
+30    OC9BI      9    12    12      246.74      266.80
+30    OC9BJ      9    12    12      266.80      371.90
+30    OC9BK      9    12    12      371.90      484.29
+    
+    * Ring 10 = REFLECTOR   
+    
+15    REFPC RF0_A  
+15    REFPC RF0_G 
+15    REFPC RF0_K 
+  
+30    RF0_A     10     0     0        0.0        35.76
+30    RF0_G     10     0     0       35.76      371.90
+30    RF0_K     10     0     0      371.90      484.29
+
+    * Ring 11 = REFLECTOR/SHIELD 
+    
+15    REFPC RFA_A  
+15    REFPC RFA_G 
+15    REFPC RFA_K 
+  
+15    RS2PC SHA_A
+15    RS2PC SHA_G
+15    RS2PC SHA_K
+   
+30    RFA_A     11     0     0        0.0        35.76
+30    RFA_G     11     0     0       35.76      371.90
+30    RFA_K     11     0     0      371.90      484.29
+
+30    SHA_A     11    60    60        0.0        35.76
+30    SHA_G     11    60    60       35.76      371.90
+30    SHA_K     11    60    60      371.90      484.29
+
+30    SHA_A     11     1     2        0.0        35.76
+30    SHA_G     11     1     2       35.76      371.90
+30    SHA_K     11     1     2      371.90      484.29
+
+30    SHA_A     11    10    12        0.0        35.76
+30    SHA_G     11    10    12       35.76      371.90
+30    SHA_K     11    10    12      371.90      484.29
+
+    * Ring 12 = SHIELD/BARREL   
+    
+15    RS2PC SHB_A
+15    RS2PC SHB_G
+15    RS2PC SHB_K
+   
+15    BRPC  BAB_G 
+
+30    SHB_A     12     0     0        0.0        35.76
+30    SHB_G     12     0     0       35.76      371.90
+30    SHB_K     12     0     0      371.90      484.29
+
+30    BAB_G     12    66    66        0.0       484.29
+30    BAB_G     12     1     2        0.0       484.29
+30    BAB_G     12    11    13        0.0       484.29
+
+    * Ring 13 = BARREL   
+    
+15    BRPC  BAC_G 
+
+30    BAC_G     13    67    71        0.0       484.29
+30    BAC_G     13     3    11        0.0       484.29
+30    BAC_G     13    15    18        0.0       484.29
+
+DATASET=A.BURN
+01
+01  ************************************************************
+01              A.BURN :  ABR  1000MWt,  
+01  ************************************************************    
+01
+                         isotope    isotope     isotope      max.      max.
+                         region     stage       charge       density   cyclic
+   Deburg SCM     LCM    density    density     density      iternat.  iteration 
+                         (EPSN)     (EPSC)      (EPSE)       (LMAX)    (MMAX)
+   ----------------------------------------------------------------
+02          999000       0.001       0.001       0.0001          5     5
+
+           pre.    time          time                           no.       no.
+           burnup  between       problem   cycle        error   sub-      fuel
+           cycle   cycles        begin     time         burnup  interval  management
+     --------------------------------------------------------------------------------
+03         0        36.3         0.0       100.00        1.00     1     0
+
+                desired       conv.         frac.      init.       second
+
+   ******************************************************************************
+   *** >>> Check point : charge enrichment
+   ******************************************************************************
+
+                KEFF          criteria     burnup      charge      charge
+                              (EPSF)        time       enrich.     enrich. 
+   ----------------------------------------------------------------
+04                1.0000       1.000         1.0    0.199500    0.199500
+
+27                1.0000       0.001
+
+06          CPL1   0.5
+09    U-234      1U-235
+09    U-234      2LFU35     1.0     LEU35          1.0
+09    U-234      5DUMP1
+09    U-234      8DUMP1
+25    U-234      8DUMP1     8.978-14
+09    U-235      1U-236
+09    U-235      2LFU35     1.0     LEU35          1.0
+09    U-235      5U-234
+09    U-235      8DUMP1
+25    U-235      8DUMP1     3.120-17
+09    U-236      1NP237
+09    U-236      2LFU35     1.0     LEU35          1.0
+09    U-236      5U-235
+09    U-236      8DUMP1
+25    U-236      8DUMP1     9.379-16
+09    U-238      1PU239
+09    U-238      2LFU38     1.0     LEU38          1.0
+09    U-238      5NP237
+09    U-238      8DUMP1
+25    U-238      8DUMP1     4.915-18
+09    NP237      1PU238
+09    NP237      2LFN37     1.0     LEN37          1.0
+09    NP237      5PU236        0.346U-236        0.374DUMP1         0.28
+09    NP237      8DUMP1
+25    NP237      8DUMP1     1.026-14
+09    PU236      1NP237
+09    PU236      2LFP38     1.0     LEP38          1.0
+09    PU236      5DUMP1
+09    PU236      8DUMP1
+25    PU236      8DUMP1     7.703-09
+09    PU238      1PU239
+09    PU238      2LFP38     1.0     LEP38          1.0
+09    PU238      5NP237
+09    PU238      8U-234
+25    PU238      8U-234     2.503-10
+09    PU239      1PU240
+09    PU239      2LFP39     1.0     LEP39          1.0
+09    PU239      5PU238
+09    PU239      8U-235
+25    PU239      8U-235     9.109-13
+09    PU240      1PU241
+09    PU240      2LFP40     1.0     LEP40          1.0
+09    PU240      5PU239
+09    PU240      8U-236
+25    PU240      8U-236     3.353-12
+09    PU241      1PU242
+09    PU241      2LFP41     1.0     LEP41          1.0
+09    PU241      5PU240
+09    PU241      6AM241
+25    PU241      6AM241     1.494-09
+09    PU242      1AM243
+09    PU242      2LFP42     1.0     LEP42          1.0
+09    PU242      5PU241
+09    PU242      8U-238
+25    PU242      8U-238     5.833-14
+09    AM241      1CM242         0.66AM242         0.20PU242         0.14
+09    AM241      2LFA41     1.0     LEA41          1.0
+09    AM241      5PU240
+09    AM241      8NP237
+25    AM241      8NP237     5.081-11
+09    AM242      1AM243
+09    AM242      2LFA41     1.0     LEA41          1.0
+09    AM242      5AM241
+09    AM242      6CM242
+25    AM242      6CM242     1.189-10
+09    AM242      7PU242
+25    AM242      7PU242     2.487-11
+09    AM242      8PU238
+25    AM242      8PU238     7.225-13
+09    AM243      1CM244
+09    AM243      2LFA43     1.0     LEA43          1.0
+09    AM243      5AM242        0.500PU242        0.086CM242        0.414
+09    AM243      8PU239
+25    AM243      8PU239     2.976-12
+09    CM242      1CM243
+09    CM242      2LFC44     1.0     LEC44          1.0
+09    CM242      5AM241         0.99NP237         0.01
+09    CM242      8PU238
+25    CM242      8PU238     4.924-08
+09    CM243      1CM244
+09    CM243      2LFC44     1.0     LEC44          1.0
+09    CM243      5CM242
+09    CM243      7AM243
+25    CM243      7AM243     2.003-12
+09    CM243      8PU239
+25    CM243      8PU239     7.685-10
+09    CM244      1CM245
+09    CM244      2LFC44     1.0     LEC44          1.0
+09    CM244      5CM243
+09    CM244      8PU240
+25    CM244      8PU240     1.213-09
+09    CM245      1CM246
+09    CM245      2LFC44     1.0     LEC44          1.0
+09    CM245      5CM244
+09    CM245      8PU241
+25    CM245      8PU241     2.592-12
+09    CM246      1DUMP2
+09    CM246      2LFC44     1.0     LEC44          1.0
+09    CM246      5CM245
+09    CM246      8PU242
+25    CM246      8PU242     4.642-12
+09    LFU35      0
+09    LFU38      0
+09    LFN37      0
+09    LFP38      0
+09    LFP39      0
+09    LFP40      0
+09    LFP41      0
+09    LFP42      0
+09    LFA41      0
+09    LFA43      0
+09    LFC44      0
+09    LEU35      0
+09    LEU38      0
+09    LEN37      0
+09    LEP38      0
+09    LEP39      0
+09    LEP40      0
+09    LEP41      0
+09    LEP42      0
+09    LEA41      0
+09    LEA43      0
+09    LEC44      0
+09    DUMP1      0
+09    DUMP2      0
+10    U-234 U234I U234O
+10    U-235 U235I U235O
+10    U-236 U236I U236O
+10    U-238 U238I U238O
+10    NP237 Np37I Np37O
+10    PU236 Pu36I Pu36O
+10    PU238 Pu38I Pu38O
+10    PU239 Pu39I Pu39O
+10    PU240 Pu40I Pu40O
+10    PU241 Pu41I Pu41O
+10    PU242 Pu42I Pu42O
+10    AM241 A241I A241O
+10    AM242 A42mI A42mO
+10    AM243 A243I A243O
+10    CM242 Cm42I Cm42O
+10    CM243 Cm43I Cm43O
+10    CM244 Cm44I Cm44O
+10    CM245 Cm45I Cm45O
+10    CM246 Cm46I Cm46O
+10    LFU35 FU35I FU35O
+10    LFU38 FU38I FU38O
+10    LFN37 FN37I FN37O
+10    LFP38 FP38I FP38O
+10    LFP39 FP39I FP39O
+10    LFP40 FP40I FP40O
+10    LFP41 FP41I FP41O
+10    LFP42 FP42I FP42O
+10    LFA41 FA41I FA41O
+10    LFA43 FA43I FA43O
+10    LFC44 FC44I FC44O
+10    LEU35 EU35I EU35O
+10    LEU38 EU38I EU38O
+10    LEN37 EN37I EN37O
+10    LEP38 EP38I EP38O
+10    LEP39 EP39I EP39O
+10    LEP40 EP40I EP40O
+10    LEP41 EP41I EP41O
+10    LEP42 EP42I EP42O
+10    LEA41 EA41I EA41O
+10    LEA43 EA43I EA43O
+10    LEC44 EC44I EC44O
+
+   ******************************************************************************
+   *** >>> Check point : different batch
+   ******************************************************************************
+
+11    CPL1       0     1ICSC  ICPC       2ICSC  ICPC
+11    CPL1       0     3ICSC  ICPC       4ICSC  ICPC
+11    CPL1       0     5ICSC  ICPC       6ICSC  ICPC      
+
+11    CPL3       0     1OCSC  OCPC       2OCSC  OCPC
+11    CPL3       0     3OCSC  OCPC       4OCSC  OCPC
+11    CPL3       0     5OCSC  OCPC       6OCSC  OCPC
+
+12    CPL1        ICLOAD      0.0              0        0.75
+12    CPL3        OCLOAD      0.0              0        1.00 
+
+   ******************************************************************************
+   *** >>> Check point : different fuel density and fuel form
+   ******************************************************************************
+
+13    ICLOAD      U-234  3.64276E-02U-235  3.62721E-02U-236  3.61182E-02
+13    ICLOAD      U-238  3.58140E-02
+13    ICLOAD      NP237  3.59654E-02
+13    ICLOAD      PU236  3.61181E-02PU238  3.58141E-02PU239  3.56639E-02
+13    ICLOAD      PU240  3.55151E-02PU241  3.53674E-02PU242  3.52210E-02
+13    ICLOAD      AM241  3.53673E-02AM242  3.52209E-02AM243  3.50757E-02
+13    ICLOAD      CM242  3.52209E-02CM243  3.50757E-02CM244  3.49318E-02
+13    ICLOAD      CM245  3.47888E-02CM246  3.46472E-02
+13    ICLOAD      LFP35  3.65475E-02LFP38  3.61589E-02LFP39  3.59882E-02
+13    ICLOAD      LFP40  3.58653E-02LFP41  3.56998E-02
+
+13    OCLOAD      U-234  3.64276E-02U-235  3.62721E-02U-236  3.61182E-02
+13    OCLOAD      U-238  3.58140E-02
+13    OCLOAD      NP237  3.59654E-02
+13    OCLOAD      PU236  3.61181E-02PU238  3.58141E-02PU239  3.56639E-02
+13    OCLOAD      PU240  3.55151E-02PU241  3.53674E-02PU242  3.52210E-02
+13    OCLOAD      AM241  3.53673E-02AM242  3.52209E-02AM243  3.50757E-02
+13    OCLOAD      CM242  3.52209E-02CM243  3.50757E-02CM244  3.49318E-02
+13    OCLOAD      CM245  3.47888E-02CM246  3.46472E-02
+13    OCLOAD      LFP35  3.65475E-02LFP38  3.61589E-02LFP39  3.59882E-02
+13    OCLOAD      LFP40  3.58653E-02LFP41  3.56998E-02
+
+   ******************************************************************************
+   *** >>> Check point : different feed TRU
+   ******************************************************************************
+
+    * Class - 1  : WG Pu 0.01/93.81/5.81/0.35/0.02
+    
+22    ETRU        U-235  1.0
+21    ETRU  STRU        1.0E30
+18    STRU        U-235  1.0
+19    CPL1        ETRU       1
+19    CPL3        ETRU       1
+
+    * Class - 2  : Depleted Uranium
+    
+22    EDU         U-238  1.0      
+21    EDU   SDU         1.0E30
+18    SDU         U-238  0.0
+20    CPL1        EDU        1
+20    CPL3        EDU        1
+
+24    U-234      0    92 234.040945
+24    U-235      1    92 235.043922
+24    U-236      0    92 236.045561
+24    U-238      0    92 238.050785
+24    NP237      0    93 237.048166
+24    PU236      0    94 236.046048
+24    PU238      0    94 238.049553
+24    PU239      1    94 239.052156
+24    PU240      0    94 240.053808
+24    PU241      1    94 241.056273
+24    PU242      0    94 242.058737
+24    AM241      0    95 241.056822
+24    AM242      0    95 242.059098
+24    AM243      0    95 243.061374
+24    CM242      0    96 242.058831
+24    CM243      0    96 243.061382
+24    CM244      0    96 244.062747
+24    CM245      0    96 245.065484
+24    CM246      0    96 246.067218
+24    LFU35      0    92 167.83
+24    LFU38      0    92 171.91
+24    LFN37      0    93 175.34
+24    LFP38      0    94 175.85
+24    LFP39      0    94 180.30
+24    LFP40      0    94 179.22
+24    LFP41      0    94 177.33
+24    LFP42      0    94 177.49
+24    LFA41      0    94 177.07
+24    LFA43      0    94 176.92
+24    LFC44      0    94 168.87
+24    LEU35      0    92 65.51
+24    LEU38      0    92 63.97
+24    LEN37      0    93 59.77
+24    LEP38      0    94 60.95
+24    LEP39      0    94 56.35
+24    LEP40      0    94 58.64
+24    LEP41      0    94 61.51
+24    LEP42      0    94 61.98
+24    LEA41      0    94 61.60
+24    LEA43      0    94 62.86
+24    LEC44      0    94 72.24
+24    DUMP1      0    92 232.0371
+24    DUMP2      0    96 246.0672
+29    ICORE MCORE OCORE       
+
+   ******************************************************************************
+   *** >>> Check point :cycle length and number of batches
+   ******************************************************************************
+
+32          400.0       1000.0        90.0      164.35      3     3
+34         6     0     0     0     0     0
+46    NP237      3PU238      1PU239      1PU240      1
+46    PU241      1PU242      1AM241      3
+46    CM244      3
